@@ -1,0 +1,10 @@
+0:
+  Cost: 5.0
+  Dst: s3
+  Src: c1
+  Time: 30.0
+1:
+  Cost: 45.0
+  Dst: s2
+  Src: c2
+  Time: 89.0

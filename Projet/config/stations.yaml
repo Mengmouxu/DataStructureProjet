@@ -1,0 +1,16 @@
+0:
+  Cost: 89.0
+  Delay: 27
+  ID: s3
+  Pos:
+  - 23
+  - 56
+  Throughput: 36
+1:
+  Cost: 30.0
+  Delay: 34
+  ID: s2
+  Pos:
+  - 90
+  - 67
+  Throughput: 5
