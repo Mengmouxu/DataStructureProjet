@@ -121,7 +121,7 @@ class package:
         print(f"> Package Category: {self.Category}")
         print( )
 
-def all_Packages():
+def All_Packages():
     packages = cfg.get_packages()
     Packages = []
     for i in range(cfg.len_packages()):
