@@ -190,7 +190,7 @@ def append_centers_config(center_pos, center_prop):
     for i in range(n_center):
         center_data[i] = {
             "ID": f"c{i}",
-            "Pos": [float(center_pos[i][0]), float(center_pos[i][1])],
+            "Pos": [int(center_pos[i][0]), int(center_pos[i][1])],
             "Throughput": center_prop[i][0],
             "Delay": center_prop[i][1],
             "Cost" : center_prop[i][2]
@@ -203,7 +203,7 @@ def append_stations_config(station_pos, station_prop):
     for i in range(n_station):
         station_data[i] = {
             "ID": f"s{i}",
-            "Pos": [float(station_pos[i][0]), float(station_pos[i][1])],
+            "Pos": [int(station_pos[i][0]), int(station_pos[i][1])],
             "Throughput": station_prop[i][0],
             "Delay": station_prop[i][1],
             "Cost": station_prop[i][2]
