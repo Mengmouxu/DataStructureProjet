@@ -1,12 +1,6000 @@
 0:
   Category: 0
-  Dst: c1
-  ID: myx
-  Src: s3
-  TimeCreated: 10.0
+  Dst: s24
+  ID: 0
+  Src: s2
+  Time: 0.000955348027324554
 1:
   Category: 1
-  Dst: c1
-  ID: c3
-  Src: c2
-  TimeCreated: 90.0
+  Dst: s18
+  ID: 1
+  Src: s22
+  Time: 0.022291485920125087
+2:
+  Category: 1
+  Dst: s11
+  ID: 2
+  Src: s1
+  Time: 0.02291145838802322
+3:
+  Category: 1
+  Dst: s3
+  ID: 3
+  Src: s24
+  Time: 0.04423465142510041
+4:
+  Category: 0
+  Dst: s6
+  ID: 4
+  Src: s20
+  Time: 0.04737436514586468
+5:
+  Category: 0
+  Dst: s14
+  ID: 5
+  Src: s18
+  Time: 0.04871749335890874
+6:
+  Category: 0
+  Dst: s24
+  ID: 6
+  Src: s1
+  Time: 0.06639428756613475
+7:
+  Category: 0
+  Dst: s14
+  ID: 7
+  Src: s9
+  Time: 0.07001099396683053
+8:
+  Category: 0
+  Dst: s4
+  ID: 8
+  Src: s24
+  Time: 0.0736544798042238
+9:
+  Category: 0
+  Dst: s3
+  ID: 9
+  Src: s22
+  Time: 0.08284562763562997
+10:
+  Category: 1
+  Dst: s14
+  ID: 10
+  Src: s1
+  Time: 0.10844017429222363
+11:
+  Category: 1
+  Dst: s1
+  ID: 11
+  Src: s0
+  Time: 0.12662612522797634
+12:
+  Category: 0
+  Dst: s1
+  ID: 12
+  Src: s18
+  Time: 0.12852251886405863
+13:
+  Category: 0
+  Dst: s1
+  ID: 13
+  Src: s2
+  Time: 0.14086080011205615
+14:
+  Category: 1
+  Dst: s8
+  ID: 14
+  Src: s12
+  Time: 0.16237862376845724
+15:
+  Category: 0
+  Dst: s19
+  ID: 15
+  Src: s22
+  Time: 0.16282708417822223
+16:
+  Category: 0
+  Dst: s13
+  ID: 16
+  Src: s0
+  Time: 0.16424938000611666
+17:
+  Category: 0
+  Dst: s17
+  ID: 17
+  Src: s1
+  Time: 0.16921156643851765
+18:
+  Category: 0
+  Dst: s4
+  ID: 18
+  Src: s20
+  Time: 0.18188111926673844
+19:
+  Category: 0
+  Dst: s3
+  ID: 19
+  Src: s1
+  Time: 0.18199854232801682
+20:
+  Category: 0
+  Dst: s9
+  ID: 20
+  Src: s10
+  Time: 0.18457223615450635
+21:
+  Category: 0
+  Dst: s14
+  ID: 21
+  Src: s2
+  Time: 0.1929791144312123
+22:
+  Category: 1
+  Dst: s24
+  ID: 22
+  Src: s0
+  Time: 0.19546889917186894
+23:
+  Category: 0
+  Dst: s21
+  ID: 23
+  Src: s1
+  Time: 0.2036933428834775
+24:
+  Category: 1
+  Dst: s22
+  ID: 24
+  Src: s18
+  Time: 0.2052032043736025
+25:
+  Category: 0
+  Dst: s11
+  ID: 25
+  Src: s16
+  Time: 0.2108980258807347
+26:
+  Category: 0
+  Dst: s22
+  ID: 26
+  Src: s11
+  Time: 0.21396312484380653
+27:
+  Category: 0
+  Dst: s10
+  ID: 27
+  Src: s18
+  Time: 0.23234602906456425
+28:
+  Category: 0
+  Dst: s11
+  ID: 28
+  Src: s10
+  Time: 0.24291027275944232
+29:
+  Category: 0
+  Dst: s17
+  ID: 29
+  Src: s0
+  Time: 0.25238894464402817
+30:
+  Category: 1
+  Dst: s22
+  ID: 30
+  Src: s12
+  Time: 0.26419627051021655
+31:
+  Category: 0
+  Dst: s10
+  ID: 31
+  Src: s17
+  Time: 0.27652654565560253
+32:
+  Category: 0
+  Dst: s13
+  ID: 32
+  Src: s22
+  Time: 0.2868601161480786
+33:
+  Category: 0
+  Dst: s6
+  ID: 33
+  Src: s9
+  Time: 0.2948640641280207
+34:
+  Category: 0
+  Dst: s14
+  ID: 34
+  Src: s4
+  Time: 0.3049340852991569
+35:
+  Category: 0
+  Dst: s6
+  ID: 35
+  Src: s15
+  Time: 0.31186638278928314
+36:
+  Category: 0
+  Dst: s23
+  ID: 36
+  Src: s16
+  Time: 0.327261651433405
+37:
+  Category: 0
+  Dst: s15
+  ID: 37
+  Src: s11
+  Time: 0.3595019443031635
+38:
+  Category: 1
+  Dst: s6
+  ID: 38
+  Src: s24
+  Time: 0.36040334344807334
+39:
+  Category: 0
+  Dst: s10
+  ID: 39
+  Src: s11
+  Time: 0.36220507425947934
+40:
+  Category: 0
+  Dst: s9
+  ID: 40
+  Src: s16
+  Time: 0.3887400514474004
+41:
+  Category: 0
+  Dst: s22
+  ID: 41
+  Src: s20
+  Time: 0.39005663958238257
+42:
+  Category: 0
+  Dst: s23
+  ID: 42
+  Src: s15
+  Time: 0.4015526664547724
+43:
+  Category: 1
+  Dst: s22
+  ID: 43
+  Src: s18
+  Time: 0.4155150596779196
+44:
+  Category: 0
+  Dst: s10
+  ID: 44
+  Src: s14
+  Time: 0.4331567278168236
+45:
+  Category: 1
+  Dst: s3
+  ID: 45
+  Src: s22
+  Time: 0.4629023441977269
+46:
+  Category: 0
+  Dst: s6
+  ID: 46
+  Src: s8
+  Time: 0.48675957286745275
+47:
+  Category: 1
+  Dst: s9
+  ID: 47
+  Src: s14
+  Time: 0.49394350711406165
+48:
+  Category: 0
+  Dst: s23
+  ID: 48
+  Src: s22
+  Time: 0.5083567599210985
+49:
+  Category: 1
+  Dst: s11
+  ID: 49
+  Src: s10
+  Time: 0.5112897851449985
+50:
+  Category: 1
+  Dst: s12
+  ID: 50
+  Src: s22
+  Time: 0.5250497495422226
+51:
+  Category: 0
+  Dst: s5
+  ID: 51
+  Src: s10
+  Time: 0.5286574366500272
+52:
+  Category: 0
+  Dst: s3
+  ID: 52
+  Src: s1
+  Time: 0.5381270035998829
+53:
+  Category: 0
+  Dst: s14
+  ID: 53
+  Src: s3
+  Time: 0.5531554506945571
+54:
+  Category: 1
+  Dst: s5
+  ID: 54
+  Src: s8
+  Time: 0.5584757697503471
+55:
+  Category: 0
+  Dst: s3
+  ID: 55
+  Src: s10
+  Time: 0.5687721236682011
+56:
+  Category: 0
+  Dst: s21
+  ID: 56
+  Src: s4
+  Time: 0.5820691017557786
+57:
+  Category: 0
+  Dst: s22
+  ID: 57
+  Src: s9
+  Time: 0.584157543712013
+58:
+  Category: 0
+  Dst: s11
+  ID: 58
+  Src: s15
+  Time: 0.585755355941612
+59:
+  Category: 0
+  Dst: s0
+  ID: 59
+  Src: s3
+  Time: 0.5889840343806618
+60:
+  Category: 1
+  Dst: s21
+  ID: 60
+  Src: s24
+  Time: 0.5989686173736031
+61:
+  Category: 0
+  Dst: s3
+  ID: 61
+  Src: s14
+  Time: 0.6149066602793902
+62:
+  Category: 1
+  Dst: s10
+  ID: 62
+  Src: s22
+  Time: 0.6266558236005757
+63:
+  Category: 1
+  Dst: s24
+  ID: 63
+  Src: s9
+  Time: 0.6310203056025951
+64:
+  Category: 1
+  Dst: s4
+  ID: 64
+  Src: s10
+  Time: 0.633921888157893
+65:
+  Category: 0
+  Dst: s15
+  ID: 65
+  Src: s24
+  Time: 0.642534127870281
+66:
+  Category: 1
+  Dst: s3
+  ID: 66
+  Src: s4
+  Time: 0.6456752051550096
+67:
+  Category: 1
+  Dst: s4
+  ID: 67
+  Src: s3
+  Time: 0.6537061999694691
+68:
+  Category: 0
+  Dst: s5
+  ID: 68
+  Src: s12
+  Time: 0.6654012340170392
+69:
+  Category: 1
+  Dst: s24
+  ID: 69
+  Src: s1
+  Time: 0.6784751599177361
+70:
+  Category: 0
+  Dst: s8
+  ID: 70
+  Src: s2
+  Time: 0.7164761325233253
+71:
+  Category: 1
+  Dst: s18
+  ID: 71
+  Src: s22
+  Time: 0.7201917132035129
+72:
+  Category: 1
+  Dst: s1
+  ID: 72
+  Src: s18
+  Time: 0.7251288868870218
+73:
+  Category: 0
+  Dst: s8
+  ID: 73
+  Src: s22
+  Time: 0.7396948160060437
+74:
+  Category: 1
+  Dst: s17
+  ID: 74
+  Src: s22
+  Time: 0.7455852787995005
+75:
+  Category: 0
+  Dst: s11
+  ID: 75
+  Src: s20
+  Time: 0.7578160891969392
+76:
+  Category: 0
+  Dst: s14
+  ID: 76
+  Src: s20
+  Time: 0.7878523366505279
+77:
+  Category: 0
+  Dst: s22
+  ID: 77
+  Src: s14
+  Time: 0.8034611693972615
+78:
+  Category: 0
+  Dst: s10
+  ID: 78
+  Src: s11
+  Time: 0.804626340099345
+79:
+  Category: 0
+  Dst: s4
+  ID: 79
+  Src: s9
+  Time: 0.8183654211388047
+80:
+  Category: 0
+  Dst: s19
+  ID: 80
+  Src: s0
+  Time: 0.8196294411906351
+81:
+  Category: 0
+  Dst: s6
+  ID: 81
+  Src: s22
+  Time: 0.8542945317184016
+82:
+  Category: 0
+  Dst: s14
+  ID: 82
+  Src: s15
+  Time: 0.8659699279407325
+83:
+  Category: 0
+  Dst: s23
+  ID: 83
+  Src: s24
+  Time: 0.8722390648885585
+84:
+  Category: 0
+  Dst: s15
+  ID: 84
+  Src: s16
+  Time: 0.8725582350110819
+85:
+  Category: 0
+  Dst: s19
+  ID: 85
+  Src: s10
+  Time: 0.8955141550711985
+86:
+  Category: 1
+  Dst: s24
+  ID: 86
+  Src: s23
+  Time: 0.896901006651408
+87:
+  Category: 0
+  Dst: s19
+  ID: 87
+  Src: s15
+  Time: 0.9103011016782689
+88:
+  Category: 0
+  Dst: s3
+  ID: 88
+  Src: s8
+  Time: 0.9177169459978005
+89:
+  Category: 0
+  Dst: s15
+  ID: 89
+  Src: s18
+  Time: 0.9245982850668986
+90:
+  Category: 0
+  Dst: s19
+  ID: 90
+  Src: s22
+  Time: 0.9415700542526784
+91:
+  Category: 0
+  Dst: s14
+  ID: 91
+  Src: s15
+  Time: 0.9416126496390924
+92:
+  Category: 0
+  Dst: s10
+  ID: 92
+  Src: s9
+  Time: 0.9620912970538922
+93:
+  Category: 0
+  Dst: s5
+  ID: 93
+  Src: s2
+  Time: 0.985711785443657
+94:
+  Category: 0
+  Dst: s2
+  ID: 94
+  Src: s15
+  Time: 0.9874573650371756
+95:
+  Category: 0
+  Dst: s18
+  ID: 95
+  Src: s6
+  Time: 1.0062677866091816
+96:
+  Category: 0
+  Dst: s15
+  ID: 96
+  Src: s22
+  Time: 1.0246557972627852
+97:
+  Category: 1
+  Dst: s14
+  ID: 97
+  Src: s22
+  Time: 1.0591456216996553
+98:
+  Category: 0
+  Dst: s18
+  ID: 98
+  Src: s12
+  Time: 1.066448435429531
+99:
+  Category: 0
+  Dst: s4
+  ID: 99
+  Src: s8
+  Time: 1.070742292229605
+100:
+  Category: 0
+  Dst: s10
+  ID: 100
+  Src: s9
+  Time: 1.0858648500837473
+101:
+  Category: 0
+  Dst: s10
+  ID: 101
+  Src: s0
+  Time: 1.0897225059224755
+102:
+  Category: 0
+  Dst: s4
+  ID: 102
+  Src: s9
+  Time: 1.1024578939204934
+103:
+  Category: 0
+  Dst: s4
+  ID: 103
+  Src: s18
+  Time: 1.1025915150322074
+104:
+  Category: 0
+  Dst: s1
+  ID: 104
+  Src: s21
+  Time: 1.1044497263290514
+105:
+  Category: 1
+  Dst: s19
+  ID: 105
+  Src: s8
+  Time: 1.1051050482395173
+106:
+  Category: 1
+  Dst: s22
+  ID: 106
+  Src: s9
+  Time: 1.115562751119766
+107:
+  Category: 0
+  Dst: s22
+  ID: 107
+  Src: s8
+  Time: 1.1267094948249654
+108:
+  Category: 0
+  Dst: s9
+  ID: 108
+  Src: s2
+  Time: 1.1349077011352997
+109:
+  Category: 0
+  Dst: s13
+  ID: 109
+  Src: s18
+  Time: 1.142949065117032
+110:
+  Category: 0
+  Dst: s24
+  ID: 110
+  Src: s9
+  Time: 1.1652627723146978
+111:
+  Category: 1
+  Dst: s2
+  ID: 111
+  Src: s10
+  Time: 1.1717591873218165
+112:
+  Category: 0
+  Dst: s4
+  ID: 112
+  Src: s15
+  Time: 1.183879682144608
+113:
+  Category: 1
+  Dst: s24
+  ID: 113
+  Src: s20
+  Time: 1.2138404535547203
+114:
+  Category: 0
+  Dst: s23
+  ID: 114
+  Src: s22
+  Time: 1.2240956765531839
+115:
+  Category: 1
+  Dst: s23
+  ID: 115
+  Src: s12
+  Time: 1.2462017760323119
+116:
+  Category: 0
+  Dst: s11
+  ID: 116
+  Src: s23
+  Time: 1.2502861776494587
+117:
+  Category: 0
+  Dst: s10
+  ID: 117
+  Src: s1
+  Time: 1.264223515207438
+118:
+  Category: 0
+  Dst: s0
+  ID: 118
+  Src: s15
+  Time: 1.272466072024915
+119:
+  Category: 0
+  Dst: s22
+  ID: 119
+  Src: s18
+  Time: 1.311308175010538
+120:
+  Category: 1
+  Dst: s18
+  ID: 120
+  Src: s11
+  Time: 1.3214755095330086
+121:
+  Category: 0
+  Dst: s24
+  ID: 121
+  Src: s0
+  Time: 1.3368282695498364
+122:
+  Category: 0
+  Dst: s0
+  ID: 122
+  Src: s4
+  Time: 1.344669532794995
+123:
+  Category: 0
+  Dst: s5
+  ID: 123
+  Src: s2
+  Time: 1.3539724368915365
+124:
+  Category: 1
+  Dst: s0
+  ID: 124
+  Src: s10
+  Time: 1.3579548548655422
+125:
+  Category: 0
+  Dst: s9
+  ID: 125
+  Src: s20
+  Time: 1.360286606270348
+126:
+  Category: 0
+  Dst: s1
+  ID: 126
+  Src: s10
+  Time: 1.3611176616248093
+127:
+  Category: 0
+  Dst: s8
+  ID: 127
+  Src: s15
+  Time: 1.362936172780865
+128:
+  Category: 1
+  Dst: s19
+  ID: 128
+  Src: s1
+  Time: 1.4079995076073981
+129:
+  Category: 0
+  Dst: s21
+  ID: 129
+  Src: s15
+  Time: 1.4128354100611342
+130:
+  Category: 0
+  Dst: s8
+  ID: 130
+  Src: s18
+  Time: 1.4134946778764976
+131:
+  Category: 0
+  Dst: s22
+  ID: 131
+  Src: s1
+  Time: 1.4137941177694762
+132:
+  Category: 1
+  Dst: s11
+  ID: 132
+  Src: s16
+  Time: 1.4200148592388135
+133:
+  Category: 0
+  Dst: s8
+  ID: 133
+  Src: s11
+  Time: 1.4364182891861192
+134:
+  Category: 0
+  Dst: s0
+  ID: 134
+  Src: s8
+  Time: 1.4477222113514525
+135:
+  Category: 0
+  Dst: s1
+  ID: 135
+  Src: s24
+  Time: 1.4512752203648303
+136:
+  Category: 0
+  Dst: s1
+  ID: 136
+  Src: s11
+  Time: 1.457824363726722
+137:
+  Category: 1
+  Dst: s9
+  ID: 137
+  Src: s22
+  Time: 1.462742659928657
+138:
+  Category: 0
+  Dst: s2
+  ID: 138
+  Src: s4
+  Time: 1.4669008034704651
+139:
+  Category: 0
+  Dst: s8
+  ID: 139
+  Src: s18
+  Time: 1.4746748449172533
+140:
+  Category: 0
+  Dst: s0
+  ID: 140
+  Src: s15
+  Time: 1.4931182341826426
+141:
+  Category: 0
+  Dst: s4
+  ID: 141
+  Src: s11
+  Time: 1.5058134967214918
+142:
+  Category: 0
+  Dst: s15
+  ID: 142
+  Src: s20
+  Time: 1.5090308865266167
+143:
+  Category: 1
+  Dst: s19
+  ID: 143
+  Src: s14
+  Time: 1.5101942010783986
+144:
+  Category: 1
+  Dst: s12
+  ID: 144
+  Src: s1
+  Time: 1.5199329273295374
+145:
+  Category: 1
+  Dst: s0
+  ID: 145
+  Src: s22
+  Time: 1.550262877161709
+146:
+  Category: 0
+  Dst: s19
+  ID: 146
+  Src: s2
+  Time: 1.5642470266277422
+147:
+  Category: 1
+  Dst: s3
+  ID: 147
+  Src: s1
+  Time: 1.5669059346912504
+148:
+  Category: 0
+  Dst: s10
+  ID: 148
+  Src: s9
+  Time: 1.5688481067919957
+149:
+  Category: 0
+  Dst: s16
+  ID: 149
+  Src: s4
+  Time: 1.5712352150477473
+150:
+  Category: 0
+  Dst: s14
+  ID: 150
+  Src: s4
+  Time: 1.5757157354197635
+151:
+  Category: 1
+  Dst: s2
+  ID: 151
+  Src: s22
+  Time: 1.5820471712764652
+152:
+  Category: 0
+  Dst: s10
+  ID: 152
+  Src: s8
+  Time: 1.5833086839513522
+153:
+  Category: 1
+  Dst: s12
+  ID: 153
+  Src: s4
+  Time: 1.5911065637191655
+154:
+  Category: 1
+  Dst: s24
+  ID: 154
+  Src: s9
+  Time: 1.6080730363077604
+155:
+  Category: 0
+  Dst: s19
+  ID: 155
+  Src: s22
+  Time: 1.6091008627886079
+156:
+  Category: 0
+  Dst: s8
+  ID: 156
+  Src: s12
+  Time: 1.6357205053732038
+157:
+  Category: 0
+  Dst: s12
+  ID: 157
+  Src: s22
+  Time: 1.6380400824721781
+158:
+  Category: 0
+  Dst: s0
+  ID: 158
+  Src: s14
+  Time: 1.6702134323888331
+159:
+  Category: 0
+  Dst: s21
+  ID: 159
+  Src: s15
+  Time: 1.6860109426634349
+160:
+  Category: 0
+  Dst: s0
+  ID: 160
+  Src: s18
+  Time: 1.6917721790569402
+161:
+  Category: 1
+  Dst: s6
+  ID: 161
+  Src: s10
+  Time: 1.7108559210595118
+162:
+  Category: 1
+  Dst: s5
+  ID: 162
+  Src: s1
+  Time: 1.7257297480610343
+163:
+  Category: 1
+  Dst: s0
+  ID: 163
+  Src: s22
+  Time: 1.7517019880234321
+164:
+  Category: 0
+  Dst: s0
+  ID: 164
+  Src: s2
+  Time: 1.7603646143577683
+165:
+  Category: 0
+  Dst: s1
+  ID: 165
+  Src: s22
+  Time: 1.787551077244355
+166:
+  Category: 0
+  Dst: s10
+  ID: 166
+  Src: s22
+  Time: 1.8017780153939964
+167:
+  Category: 0
+  Dst: s21
+  ID: 167
+  Src: s10
+  Time: 1.8323154744435333
+168:
+  Category: 1
+  Dst: s15
+  ID: 168
+  Src: s18
+  Time: 1.834151885043163
+169:
+  Category: 0
+  Dst: s11
+  ID: 169
+  Src: s20
+  Time: 1.8480691510769462
+170:
+  Category: 0
+  Dst: s17
+  ID: 170
+  Src: s0
+  Time: 1.8748042662680708
+171:
+  Category: 0
+  Dst: s14
+  ID: 171
+  Src: s18
+  Time: 1.8761797060920564
+172:
+  Category: 1
+  Dst: s15
+  ID: 172
+  Src: s24
+  Time: 1.8765996746199622
+173:
+  Category: 0
+  Dst: s14
+  ID: 173
+  Src: s11
+  Time: 1.8786580016703396
+174:
+  Category: 1
+  Dst: s12
+  ID: 174
+  Src: s16
+  Time: 1.884435368323433
+175:
+  Category: 1
+  Dst: s0
+  ID: 175
+  Src: s2
+  Time: 1.9185370044805077
+176:
+  Category: 0
+  Dst: s19
+  ID: 176
+  Src: s9
+  Time: 1.9188176904447696
+177:
+  Category: 0
+  Dst: s11
+  ID: 177
+  Src: s0
+  Time: 1.9229268569643252
+178:
+  Category: 0
+  Dst: s5
+  ID: 178
+  Src: s22
+  Time: 1.9341111445663106
+179:
+  Category: 0
+  Dst: s14
+  ID: 179
+  Src: s4
+  Time: 1.9377387831017732
+180:
+  Category: 0
+  Dst: s21
+  ID: 180
+  Src: s22
+  Time: 1.9417857504279623
+181:
+  Category: 1
+  Dst: s10
+  ID: 181
+  Src: s4
+  Time: 1.9487374591493802
+182:
+  Category: 1
+  Dst: s19
+  ID: 182
+  Src: s21
+  Time: 1.9515915267772561
+183:
+  Category: 0
+  Dst: s4
+  ID: 183
+  Src: s24
+  Time: 1.9772816986821269
+184:
+  Category: 0
+  Dst: s22
+  ID: 184
+  Src: s18
+  Time: 1.9821829153543473
+185:
+  Category: 0
+  Dst: s23
+  ID: 185
+  Src: s20
+  Time: 1.9975708663567726
+186:
+  Category: 0
+  Dst: s20
+  ID: 186
+  Src: s10
+  Time: 2.013428308269184
+187:
+  Category: 1
+  Dst: s0
+  ID: 187
+  Src: s4
+  Time: 2.015839038591905
+188:
+  Category: 1
+  Dst: s19
+  ID: 188
+  Src: s16
+  Time: 2.0159185418387215
+189:
+  Category: 0
+  Dst: s10
+  ID: 189
+  Src: s11
+  Time: 2.0289712079925115
+190:
+  Category: 0
+  Dst: s1
+  ID: 190
+  Src: s22
+  Time: 2.0391370780374616
+191:
+  Category: 0
+  Dst: s17
+  ID: 191
+  Src: s20
+  Time: 2.040641670640532
+192:
+  Category: 0
+  Dst: s8
+  ID: 192
+  Src: s24
+  Time: 2.0519927059092424
+193:
+  Category: 0
+  Dst: s13
+  ID: 193
+  Src: s10
+  Time: 2.0726207504747234
+194:
+  Category: 0
+  Dst: s19
+  ID: 194
+  Src: s17
+  Time: 2.121120537939376
+195:
+  Category: 0
+  Dst: s9
+  ID: 195
+  Src: s0
+  Time: 2.1212708588574998
+196:
+  Category: 1
+  Dst: s19
+  ID: 196
+  Src: s9
+  Time: 2.1275456286523533
+197:
+  Category: 1
+  Dst: s4
+  ID: 197
+  Src: s9
+  Time: 2.130618326201788
+198:
+  Category: 0
+  Dst: s2
+  ID: 198
+  Src: s20
+  Time: 2.1343873636903754
+199:
+  Category: 0
+  Dst: s15
+  ID: 199
+  Src: s18
+  Time: 2.1371991103756502
+200:
+  Category: 1
+  Dst: s11
+  ID: 200
+  Src: s10
+  Time: 2.148940034006563
+201:
+  Category: 0
+  Dst: s7
+  ID: 201
+  Src: s22
+  Time: 2.1560454462658942
+202:
+  Category: 0
+  Dst: s10
+  ID: 202
+  Src: s0
+  Time: 2.159129588581618
+203:
+  Category: 0
+  Dst: s11
+  ID: 203
+  Src: s8
+  Time: 2.206093350083055
+204:
+  Category: 0
+  Dst: s0
+  ID: 204
+  Src: s8
+  Time: 2.208980407601148
+205:
+  Category: 0
+  Dst: s4
+  ID: 205
+  Src: s18
+  Time: 2.2365797015829942
+206:
+  Category: 0
+  Dst: s24
+  ID: 206
+  Src: s10
+  Time: 2.237918748342419
+207:
+  Category: 1
+  Dst: s18
+  ID: 207
+  Src: s12
+  Time: 2.246212259182981
+208:
+  Category: 0
+  Dst: s17
+  ID: 208
+  Src: s0
+  Time: 2.2481797714773246
+209:
+  Category: 0
+  Dst: s11
+  ID: 209
+  Src: s20
+  Time: 2.2556771289844746
+210:
+  Category: 0
+  Dst: s11
+  ID: 210
+  Src: s22
+  Time: 2.2698517395790416
+211:
+  Category: 1
+  Dst: s1
+  ID: 211
+  Src: s9
+  Time: 2.278201783890528
+212:
+  Category: 0
+  Dst: s12
+  ID: 212
+  Src: s9
+  Time: 2.307848826468619
+213:
+  Category: 0
+  Dst: s14
+  ID: 213
+  Src: s4
+  Time: 2.3100546957662575
+214:
+  Category: 0
+  Dst: s22
+  ID: 214
+  Src: s6
+  Time: 2.313340622474133
+215:
+  Category: 0
+  Dst: s9
+  ID: 215
+  Src: s10
+  Time: 2.3226788258718885
+216:
+  Category: 0
+  Dst: s6
+  ID: 216
+  Src: s11
+  Time: 2.331228047304987
+217:
+  Category: 0
+  Dst: s23
+  ID: 217
+  Src: s1
+  Time: 2.3427081564540226
+218:
+  Category: 1
+  Dst: s10
+  ID: 218
+  Src: s20
+  Time: 2.34575484755966
+219:
+  Category: 0
+  Dst: s14
+  ID: 219
+  Src: s20
+  Time: 2.369618320041039
+220:
+  Category: 0
+  Dst: s24
+  ID: 220
+  Src: s15
+  Time: 2.3826113652279988
+221:
+  Category: 0
+  Dst: s9
+  ID: 221
+  Src: s4
+  Time: 2.3887997960285823
+222:
+  Category: 0
+  Dst: s21
+  ID: 222
+  Src: s0
+  Time: 2.392473073908699
+223:
+  Category: 0
+  Dst: s9
+  ID: 223
+  Src: s23
+  Time: 2.4067704801590923
+224:
+  Category: 0
+  Dst: s15
+  ID: 224
+  Src: s20
+  Time: 2.4341695982357083
+225:
+  Category: 1
+  Dst: s0
+  ID: 225
+  Src: s18
+  Time: 2.435834050572011
+226:
+  Category: 0
+  Dst: s17
+  ID: 226
+  Src: s4
+  Time: 2.438433722876589
+227:
+  Category: 0
+  Dst: s17
+  ID: 227
+  Src: s9
+  Time: 2.4462265544657513
+228:
+  Category: 0
+  Dst: s13
+  ID: 228
+  Src: s9
+  Time: 2.4489960240229185
+229:
+  Category: 0
+  Dst: s24
+  ID: 229
+  Src: s22
+  Time: 2.4551760435417656
+230:
+  Category: 0
+  Dst: s19
+  ID: 230
+  Src: s18
+  Time: 2.457774285950558
+231:
+  Category: 0
+  Dst: s0
+  ID: 231
+  Src: s2
+  Time: 2.463701766153959
+232:
+  Category: 0
+  Dst: s12
+  ID: 232
+  Src: s22
+  Time: 2.4683574527533434
+233:
+  Category: 0
+  Dst: s14
+  ID: 233
+  Src: s10
+  Time: 2.491514090319172
+234:
+  Category: 0
+  Dst: s15
+  ID: 234
+  Src: s5
+  Time: 2.504141944642123
+235:
+  Category: 0
+  Dst: s2
+  ID: 235
+  Src: s8
+  Time: 2.5626520858789554
+236:
+  Category: 0
+  Dst: s21
+  ID: 236
+  Src: s5
+  Time: 2.577407643083262
+237:
+  Category: 0
+  Dst: s18
+  ID: 237
+  Src: s3
+  Time: 2.5789473712571094
+238:
+  Category: 1
+  Dst: s10
+  ID: 238
+  Src: s12
+  Time: 2.5843198403468373
+239:
+  Category: 1
+  Dst: s0
+  ID: 239
+  Src: s12
+  Time: 2.606336346134325
+240:
+  Category: 0
+  Dst: s2
+  ID: 240
+  Src: s6
+  Time: 2.6125955313012423
+241:
+  Category: 0
+  Dst: s3
+  ID: 241
+  Src: s20
+  Time: 2.623265893115078
+242:
+  Category: 1
+  Dst: s11
+  ID: 242
+  Src: s16
+  Time: 2.637050790483002
+243:
+  Category: 1
+  Dst: s11
+  ID: 243
+  Src: s4
+  Time: 2.689731236354475
+244:
+  Category: 0
+  Dst: s11
+  ID: 244
+  Src: s6
+  Time: 2.698639453160897
+245:
+  Category: 0
+  Dst: s10
+  ID: 245
+  Src: s3
+  Time: 2.70071106997027
+246:
+  Category: 0
+  Dst: s10
+  ID: 246
+  Src: s9
+  Time: 2.710525567447296
+247:
+  Category: 0
+  Dst: s1
+  ID: 247
+  Src: s11
+  Time: 2.7156713042398533
+248:
+  Category: 0
+  Dst: s9
+  ID: 248
+  Src: s6
+  Time: 2.729783121745452
+249:
+  Category: 0
+  Dst: s13
+  ID: 249
+  Src: s11
+  Time: 2.7316110280363977
+250:
+  Category: 1
+  Dst: s24
+  ID: 250
+  Src: s1
+  Time: 2.732925859861999
+251:
+  Category: 0
+  Dst: s22
+  ID: 251
+  Src: s2
+  Time: 2.739881519271903
+252:
+  Category: 0
+  Dst: s3
+  ID: 252
+  Src: s20
+  Time: 2.7409451116039416
+253:
+  Category: 0
+  Dst: s1
+  ID: 253
+  Src: s8
+  Time: 2.7474985230647464
+254:
+  Category: 1
+  Dst: s14
+  ID: 254
+  Src: s22
+  Time: 2.751303961281131
+255:
+  Category: 0
+  Dst: s4
+  ID: 255
+  Src: s9
+  Time: 2.7672661155868843
+256:
+  Category: 0
+  Dst: s24
+  ID: 256
+  Src: s22
+  Time: 2.7684692384247938
+257:
+  Category: 0
+  Dst: s17
+  ID: 257
+  Src: s0
+  Time: 2.76914525970548
+258:
+  Category: 0
+  Dst: s21
+  ID: 258
+  Src: s8
+  Time: 2.7738960706001294
+259:
+  Category: 0
+  Dst: s15
+  ID: 259
+  Src: s3
+  Time: 2.7940643349917873
+260:
+  Category: 1
+  Dst: s0
+  ID: 260
+  Src: s12
+  Time: 2.7959653375072957
+261:
+  Category: 0
+  Dst: s10
+  ID: 261
+  Src: s20
+  Time: 2.827631430849001
+262:
+  Category: 1
+  Dst: s15
+  ID: 262
+  Src: s5
+  Time: 2.8379525529065064
+263:
+  Category: 0
+  Dst: s10
+  ID: 263
+  Src: s6
+  Time: 2.851778585001018
+264:
+  Category: 0
+  Dst: s22
+  ID: 264
+  Src: s10
+  Time: 2.8601291991476865
+265:
+  Category: 1
+  Dst: s11
+  ID: 265
+  Src: s1
+  Time: 2.8667878374792735
+266:
+  Category: 0
+  Dst: s8
+  ID: 266
+  Src: s10
+  Time: 2.8697304355246316
+267:
+  Category: 1
+  Dst: s11
+  ID: 267
+  Src: s20
+  Time: 2.8738682346537145
+268:
+  Category: 1
+  Dst: s10
+  ID: 268
+  Src: s24
+  Time: 2.888534816856989
+269:
+  Category: 1
+  Dst: s3
+  ID: 269
+  Src: s24
+  Time: 2.8931577260925345
+270:
+  Category: 0
+  Dst: s11
+  ID: 270
+  Src: s10
+  Time: 2.9388872187453674
+271:
+  Category: 0
+  Dst: s14
+  ID: 271
+  Src: s20
+  Time: 2.9524021692323883
+272:
+  Category: 1
+  Dst: s24
+  ID: 272
+  Src: s4
+  Time: 2.9645400072033534
+273:
+  Category: 0
+  Dst: s24
+  ID: 273
+  Src: s14
+  Time: 2.975547060166555
+274:
+  Category: 1
+  Dst: s24
+  ID: 274
+  Src: s0
+  Time: 2.9908702035481745
+275:
+  Category: 1
+  Dst: s11
+  ID: 275
+  Src: s15
+  Time: 3.011417276563055
+276:
+  Category: 0
+  Dst: s21
+  ID: 276
+  Src: s12
+  Time: 3.0199108087353
+277:
+  Category: 0
+  Dst: s8
+  ID: 277
+  Src: s15
+  Time: 3.0296889519740473
+278:
+  Category: 0
+  Dst: s3
+  ID: 278
+  Src: s18
+  Time: 3.032875538698334
+279:
+  Category: 1
+  Dst: s3
+  ID: 279
+  Src: s0
+  Time: 3.033421799406491
+280:
+  Category: 0
+  Dst: s4
+  ID: 280
+  Src: s12
+  Time: 3.034159266477191
+281:
+  Category: 0
+  Dst: s11
+  ID: 281
+  Src: s1
+  Time: 3.0655124803662446
+282:
+  Category: 0
+  Dst: s1
+  ID: 282
+  Src: s12
+  Time: 3.0659673208512177
+283:
+  Category: 0
+  Dst: s14
+  ID: 283
+  Src: s18
+  Time: 3.065990745944596
+284:
+  Category: 0
+  Dst: s10
+  ID: 284
+  Src: s18
+  Time: 3.0805845660849904
+285:
+  Category: 0
+  Dst: s14
+  ID: 285
+  Src: s16
+  Time: 3.0842783492281507
+286:
+  Category: 0
+  Dst: s19
+  ID: 286
+  Src: s24
+  Time: 3.0969964272664363
+287:
+  Category: 0
+  Dst: s4
+  ID: 287
+  Src: s12
+  Time: 3.1025913197643784
+288:
+  Category: 0
+  Dst: s10
+  ID: 288
+  Src: s9
+  Time: 3.1079948499231884
+289:
+  Category: 0
+  Dst: s1
+  ID: 289
+  Src: s4
+  Time: 3.12701854780916
+290:
+  Category: 1
+  Dst: s14
+  ID: 290
+  Src: s10
+  Time: 3.161421464027989
+291:
+  Category: 1
+  Dst: s19
+  ID: 291
+  Src: s6
+  Time: 3.212855700165434
+292:
+  Category: 0
+  Dst: s4
+  ID: 292
+  Src: s8
+  Time: 3.213793462766599
+293:
+  Category: 0
+  Dst: s22
+  ID: 293
+  Src: s10
+  Time: 3.219441001480264
+294:
+  Category: 0
+  Dst: s14
+  ID: 294
+  Src: s1
+  Time: 3.2218681212623173
+295:
+  Category: 0
+  Dst: s11
+  ID: 295
+  Src: s18
+  Time: 3.2558614739736873
+296:
+  Category: 1
+  Dst: s20
+  ID: 296
+  Src: s9
+  Time: 3.2655032155473718
+297:
+  Category: 0
+  Dst: s14
+  ID: 297
+  Src: s0
+  Time: 3.295199088981295
+298:
+  Category: 0
+  Dst: s19
+  ID: 298
+  Src: s18
+  Time: 3.3053779302267134
+299:
+  Category: 1
+  Dst: s11
+  ID: 299
+  Src: s20
+  Time: 3.314640707533376
+300:
+  Category: 0
+  Dst: s11
+  ID: 300
+  Src: s20
+  Time: 3.317472274883727
+301:
+  Category: 1
+  Dst: s0
+  ID: 301
+  Src: s14
+  Time: 3.353010701152208
+302:
+  Category: 0
+  Dst: s11
+  ID: 302
+  Src: s5
+  Time: 3.3580497248650913
+303:
+  Category: 0
+  Dst: s0
+  ID: 303
+  Src: s17
+  Time: 3.364781705157251
+304:
+  Category: 1
+  Dst: s21
+  ID: 304
+  Src: s1
+  Time: 3.36739351332539
+305:
+  Category: 1
+  Dst: s19
+  ID: 305
+  Src: s22
+  Time: 3.429160458783012
+306:
+  Category: 0
+  Dst: s2
+  ID: 306
+  Src: s22
+  Time: 3.4614905474918443
+307:
+  Category: 1
+  Dst: s8
+  ID: 307
+  Src: s2
+  Time: 3.4711820371255855
+308:
+  Category: 1
+  Dst: s11
+  ID: 308
+  Src: s10
+  Time: 3.4756833625519716
+309:
+  Category: 1
+  Dst: s8
+  ID: 309
+  Src: s12
+  Time: 3.486796701931183
+310:
+  Category: 0
+  Dst: s14
+  ID: 310
+  Src: s5
+  Time: 3.487770645578257
+311:
+  Category: 1
+  Dst: s6
+  ID: 311
+  Src: s22
+  Time: 3.4935459974964687
+312:
+  Category: 0
+  Dst: s1
+  ID: 312
+  Src: s14
+  Time: 3.5058867826444375
+313:
+  Category: 0
+  Dst: s7
+  ID: 313
+  Src: s21
+  Time: 3.524647072843335
+314:
+  Category: 0
+  Dst: s1
+  ID: 314
+  Src: s2
+  Time: 3.540877572680926
+315:
+  Category: 0
+  Dst: s0
+  ID: 315
+  Src: s1
+  Time: 3.5417856057026222
+316:
+  Category: 1
+  Dst: s3
+  ID: 316
+  Src: s22
+  Time: 3.5649241354394494
+317:
+  Category: 0
+  Dst: s23
+  ID: 317
+  Src: s19
+  Time: 3.565911466775402
+318:
+  Category: 0
+  Dst: s22
+  ID: 318
+  Src: s0
+  Time: 3.572579891399039
+319:
+  Category: 0
+  Dst: s14
+  ID: 319
+  Src: s6
+  Time: 3.577790399250281
+320:
+  Category: 1
+  Dst: s23
+  ID: 320
+  Src: s4
+  Time: 3.5955442506219124
+321:
+  Category: 0
+  Dst: s10
+  ID: 321
+  Src: s1
+  Time: 3.6003575228847393
+322:
+  Category: 0
+  Dst: s21
+  ID: 322
+  Src: s14
+  Time: 3.601434559690294
+323:
+  Category: 0
+  Dst: s13
+  ID: 323
+  Src: s20
+  Time: 3.6092754834980623
+324:
+  Category: 0
+  Dst: s13
+  ID: 324
+  Src: s6
+  Time: 3.6487073354086643
+325:
+  Category: 0
+  Dst: s18
+  ID: 325
+  Src: s11
+  Time: 3.692133270677809
+326:
+  Category: 0
+  Dst: s14
+  ID: 326
+  Src: s20
+  Time: 3.724799652566277
+327:
+  Category: 0
+  Dst: s23
+  ID: 327
+  Src: s20
+  Time: 3.7542980614047665
+328:
+  Category: 0
+  Dst: s11
+  ID: 328
+  Src: s4
+  Time: 3.763204329487074
+329:
+  Category: 1
+  Dst: s2
+  ID: 329
+  Src: s1
+  Time: 3.765936008718094
+330:
+  Category: 0
+  Dst: s4
+  ID: 330
+  Src: s2
+  Time: 3.7763355115078454
+331:
+  Category: 1
+  Dst: s14
+  ID: 331
+  Src: s0
+  Time: 3.7866919700210295
+332:
+  Category: 1
+  Dst: s21
+  ID: 332
+  Src: s22
+  Time: 3.8168181028682278
+333:
+  Category: 0
+  Dst: s1
+  ID: 333
+  Src: s4
+  Time: 3.818881287762287
+334:
+  Category: 0
+  Dst: s24
+  ID: 334
+  Src: s0
+  Time: 3.824923906660216
+335:
+  Category: 1
+  Dst: s4
+  ID: 335
+  Src: s3
+  Time: 3.8286306875455614
+336:
+  Category: 0
+  Dst: s22
+  ID: 336
+  Src: s16
+  Time: 3.835040880595041
+337:
+  Category: 0
+  Dst: s6
+  ID: 337
+  Src: s11
+  Time: 3.8392667645288463
+338:
+  Category: 0
+  Dst: s11
+  ID: 338
+  Src: s1
+  Time: 3.8485103814681962
+339:
+  Category: 1
+  Dst: s24
+  ID: 339
+  Src: s10
+  Time: 3.849547368006134
+340:
+  Category: 0
+  Dst: s8
+  ID: 340
+  Src: s12
+  Time: 3.8640948492983576
+341:
+  Category: 0
+  Dst: s15
+  ID: 341
+  Src: s9
+  Time: 3.873887384628024
+342:
+  Category: 0
+  Dst: s24
+  ID: 342
+  Src: s0
+  Time: 3.88274073171921
+343:
+  Category: 1
+  Dst: s22
+  ID: 343
+  Src: s1
+  Time: 3.8837702542351633
+344:
+  Category: 0
+  Dst: s11
+  ID: 344
+  Src: s20
+  Time: 3.887605027752094
+345:
+  Category: 0
+  Dst: s1
+  ID: 345
+  Src: s11
+  Time: 3.91805106107981
+346:
+  Category: 0
+  Dst: s3
+  ID: 346
+  Src: s22
+  Time: 3.966723534570552
+347:
+  Category: 0
+  Dst: s1
+  ID: 347
+  Src: s6
+  Time: 3.9752456604101214
+348:
+  Category: 0
+  Dst: s12
+  ID: 348
+  Src: s21
+  Time: 4.016323120766998
+349:
+  Category: 1
+  Dst: s13
+  ID: 349
+  Src: s10
+  Time: 4.027393288737194
+350:
+  Category: 0
+  Dst: s19
+  ID: 350
+  Src: s16
+  Time: 4.04827079670963
+351:
+  Category: 1
+  Dst: s14
+  ID: 351
+  Src: s11
+  Time: 4.049539312262095
+352:
+  Category: 0
+  Dst: s9
+  ID: 352
+  Src: s17
+  Time: 4.0703581138056055
+353:
+  Category: 0
+  Dst: s0
+  ID: 353
+  Src: s10
+  Time: 4.086403307181377
+354:
+  Category: 1
+  Dst: s11
+  ID: 354
+  Src: s2
+  Time: 4.121540115389774
+355:
+  Category: 0
+  Dst: s19
+  ID: 355
+  Src: s6
+  Time: 4.137356700149592
+356:
+  Category: 1
+  Dst: s17
+  ID: 356
+  Src: s5
+  Time: 4.14128066619951
+357:
+  Category: 0
+  Dst: s14
+  ID: 357
+  Src: s8
+  Time: 4.161257219070052
+358:
+  Category: 0
+  Dst: s11
+  ID: 358
+  Src: s9
+  Time: 4.1683214694795545
+359:
+  Category: 0
+  Dst: s15
+  ID: 359
+  Src: s6
+  Time: 4.183201903988644
+360:
+  Category: 1
+  Dst: s1
+  ID: 360
+  Src: s14
+  Time: 4.205900376721137
+361:
+  Category: 0
+  Dst: s11
+  ID: 361
+  Src: s15
+  Time: 4.2232719330513575
+362:
+  Category: 1
+  Dst: s19
+  ID: 362
+  Src: s8
+  Time: 4.230148821512234
+363:
+  Category: 0
+  Dst: s14
+  ID: 363
+  Src: s7
+  Time: 4.232558830316806
+364:
+  Category: 0
+  Dst: s10
+  ID: 364
+  Src: s14
+  Time: 4.236423615764554
+365:
+  Category: 0
+  Dst: s2
+  ID: 365
+  Src: s1
+  Time: 4.261839397763971
+366:
+  Category: 1
+  Dst: s17
+  ID: 366
+  Src: s0
+  Time: 4.2674339226301825
+367:
+  Category: 1
+  Dst: s8
+  ID: 367
+  Src: s11
+  Time: 4.272362903192569
+368:
+  Category: 1
+  Dst: s15
+  ID: 368
+  Src: s6
+  Time: 4.289914553666572
+369:
+  Category: 0
+  Dst: s8
+  ID: 369
+  Src: s4
+  Time: 4.29319169214848
+370:
+  Category: 1
+  Dst: s23
+  ID: 370
+  Src: s12
+  Time: 4.311519605367582
+371:
+  Category: 0
+  Dst: s0
+  ID: 371
+  Src: s17
+  Time: 4.311958943591337
+372:
+  Category: 0
+  Dst: s11
+  ID: 372
+  Src: s15
+  Time: 4.315701425842482
+373:
+  Category: 0
+  Dst: s5
+  ID: 373
+  Src: s1
+  Time: 4.328213484700419
+374:
+  Category: 0
+  Dst: s23
+  ID: 374
+  Src: s18
+  Time: 4.349101213685907
+375:
+  Category: 0
+  Dst: s10
+  ID: 375
+  Src: s1
+  Time: 4.350375983576967
+376:
+  Category: 0
+  Dst: s1
+  ID: 376
+  Src: s12
+  Time: 4.354323735618678
+377:
+  Category: 0
+  Dst: s12
+  ID: 377
+  Src: s14
+  Time: 4.3568650659001795
+378:
+  Category: 0
+  Dst: s2
+  ID: 378
+  Src: s9
+  Time: 4.357827258400773
+379:
+  Category: 0
+  Dst: s1
+  ID: 379
+  Src: s15
+  Time: 4.3603017049100306
+380:
+  Category: 1
+  Dst: s1
+  ID: 380
+  Src: s22
+  Time: 4.3733011078503665
+381:
+  Category: 0
+  Dst: s17
+  ID: 381
+  Src: s10
+  Time: 4.3768265134959705
+382:
+  Category: 0
+  Dst: s13
+  ID: 382
+  Src: s15
+  Time: 4.379365770747576
+383:
+  Category: 0
+  Dst: s15
+  ID: 383
+  Src: s22
+  Time: 4.402513199180067
+384:
+  Category: 0
+  Dst: s17
+  ID: 384
+  Src: s2
+  Time: 4.411270471194554
+385:
+  Category: 0
+  Dst: s23
+  ID: 385
+  Src: s20
+  Time: 4.418981678515863
+386:
+  Category: 0
+  Dst: s10
+  ID: 386
+  Src: s1
+  Time: 4.435431869194419
+387:
+  Category: 0
+  Dst: s12
+  ID: 387
+  Src: s18
+  Time: 4.460032021427189
+388:
+  Category: 0
+  Dst: s17
+  ID: 388
+  Src: s14
+  Time: 4.466913902687947
+389:
+  Category: 0
+  Dst: s22
+  ID: 389
+  Src: s14
+  Time: 4.471943160777249
+390:
+  Category: 0
+  Dst: s10
+  ID: 390
+  Src: s3
+  Time: 4.488727079128434
+391:
+  Category: 0
+  Dst: s3
+  ID: 391
+  Src: s22
+  Time: 4.49210902339812
+392:
+  Category: 0
+  Dst: s19
+  ID: 392
+  Src: s12
+  Time: 4.5123908809742534
+393:
+  Category: 1
+  Dst: s24
+  ID: 393
+  Src: s22
+  Time: 4.519787487061162
+394:
+  Category: 0
+  Dst: s10
+  ID: 394
+  Src: s0
+  Time: 4.544700735791503
+395:
+  Category: 0
+  Dst: s1
+  ID: 395
+  Src: s0
+  Time: 4.54499424544133
+396:
+  Category: 0
+  Dst: s0
+  ID: 396
+  Src: s16
+  Time: 4.581908975397555
+397:
+  Category: 0
+  Dst: s21
+  ID: 397
+  Src: s6
+  Time: 4.602777037817164
+398:
+  Category: 1
+  Dst: s10
+  ID: 398
+  Src: s15
+  Time: 4.611433900604603
+399:
+  Category: 0
+  Dst: s11
+  ID: 399
+  Src: s18
+  Time: 4.623722649657388
+400:
+  Category: 0
+  Dst: s4
+  ID: 400
+  Src: s18
+  Time: 4.635820550255859
+401:
+  Category: 0
+  Dst: s14
+  ID: 401
+  Src: s20
+  Time: 4.6365259073930645
+402:
+  Category: 1
+  Dst: s3
+  ID: 402
+  Src: s4
+  Time: 4.6669351732683975
+403:
+  Category: 1
+  Dst: s6
+  ID: 403
+  Src: s14
+  Time: 4.67434008542614
+404:
+  Category: 1
+  Dst: s24
+  ID: 404
+  Src: s18
+  Time: 4.734571271528322
+405:
+  Category: 0
+  Dst: s22
+  ID: 405
+  Src: s9
+  Time: 4.766805079673976
+406:
+  Category: 0
+  Dst: s1
+  ID: 406
+  Src: s15
+  Time: 4.818721295174156
+407:
+  Category: 1
+  Dst: s4
+  ID: 407
+  Src: s11
+  Time: 4.830503663746233
+408:
+  Category: 0
+  Dst: s0
+  ID: 408
+  Src: s18
+  Time: 4.835881820799012
+409:
+  Category: 0
+  Dst: s3
+  ID: 409
+  Src: s9
+  Time: 4.873994008424904
+410:
+  Category: 1
+  Dst: s19
+  ID: 410
+  Src: s1
+  Time: 4.8869019132297105
+411:
+  Category: 0
+  Dst: s4
+  ID: 411
+  Src: s18
+  Time: 4.9102765966807205
+412:
+  Category: 0
+  Dst: s14
+  ID: 412
+  Src: s20
+  Time: 4.932353330865377
+413:
+  Category: 1
+  Dst: s2
+  ID: 413
+  Src: s0
+  Time: 4.935775681166755
+414:
+  Category: 0
+  Dst: s2
+  ID: 414
+  Src: s20
+  Time: 4.950015725529383
+415:
+  Category: 0
+  Dst: s14
+  ID: 415
+  Src: s16
+  Time: 4.955079474230854
+416:
+  Category: 1
+  Dst: s23
+  ID: 416
+  Src: s12
+  Time: 5.024938281635247
+417:
+  Category: 0
+  Dst: s20
+  ID: 417
+  Src: s5
+  Time: 5.034692468210106
+418:
+  Category: 0
+  Dst: s14
+  ID: 418
+  Src: s9
+  Time: 5.040128838923787
+419:
+  Category: 0
+  Dst: s18
+  ID: 419
+  Src: s5
+  Time: 5.054813475164201
+420:
+  Category: 0
+  Dst: s15
+  ID: 420
+  Src: s16
+  Time: 5.113411060623569
+421:
+  Category: 0
+  Dst: s1
+  ID: 421
+  Src: s10
+  Time: 5.12265202264215
+422:
+  Category: 1
+  Dst: s11
+  ID: 422
+  Src: s9
+  Time: 5.152400844048013
+423:
+  Category: 1
+  Dst: s4
+  ID: 423
+  Src: s0
+  Time: 5.158393896749937
+424:
+  Category: 0
+  Dst: s24
+  ID: 424
+  Src: s15
+  Time: 5.185949436506773
+425:
+  Category: 0
+  Dst: s11
+  ID: 425
+  Src: s0
+  Time: 5.19816080611397
+426:
+  Category: 0
+  Dst: s3
+  ID: 426
+  Src: s10
+  Time: 5.203798324352201
+427:
+  Category: 1
+  Dst: s14
+  ID: 427
+  Src: s4
+  Time: 5.21970754995429
+428:
+  Category: 0
+  Dst: s3
+  ID: 428
+  Src: s12
+  Time: 5.2207723240242085
+429:
+  Category: 1
+  Dst: s1
+  ID: 429
+  Src: s22
+  Time: 5.232952019323495
+430:
+  Category: 0
+  Dst: s9
+  ID: 430
+  Src: s20
+  Time: 5.2332230875355705
+431:
+  Category: 0
+  Dst: s23
+  ID: 431
+  Src: s10
+  Time: 5.239042293709597
+432:
+  Category: 0
+  Dst: s4
+  ID: 432
+  Src: s20
+  Time: 5.243430625413129
+433:
+  Category: 0
+  Dst: s4
+  ID: 433
+  Src: s9
+  Time: 5.26981447457967
+434:
+  Category: 0
+  Dst: s12
+  ID: 434
+  Src: s20
+  Time: 5.284630867419309
+435:
+  Category: 1
+  Dst: s9
+  ID: 435
+  Src: s2
+  Time: 5.290241536358741
+436:
+  Category: 0
+  Dst: s0
+  ID: 436
+  Src: s18
+  Time: 5.319139979541442
+437:
+  Category: 1
+  Dst: s21
+  ID: 437
+  Src: s16
+  Time: 5.324982208601934
+438:
+  Category: 1
+  Dst: s10
+  ID: 438
+  Src: s12
+  Time: 5.346633727231241
+439:
+  Category: 0
+  Dst: s24
+  ID: 439
+  Src: s9
+  Time: 5.352585139911273
+440:
+  Category: 0
+  Dst: s17
+  ID: 440
+  Src: s12
+  Time: 5.356155737701194
+441:
+  Category: 0
+  Dst: s2
+  ID: 441
+  Src: s24
+  Time: 5.371189445248056
+442:
+  Category: 1
+  Dst: s13
+  ID: 442
+  Src: s12
+  Time: 5.454383371998459
+443:
+  Category: 0
+  Dst: s3
+  ID: 443
+  Src: s4
+  Time: 5.468817258461803
+444:
+  Category: 1
+  Dst: s6
+  ID: 444
+  Src: s18
+  Time: 5.469964341842145
+445:
+  Category: 0
+  Dst: s1
+  ID: 445
+  Src: s14
+  Time: 5.47952353868286
+446:
+  Category: 0
+  Dst: s15
+  ID: 446
+  Src: s20
+  Time: 5.493561759090894
+447:
+  Category: 1
+  Dst: s9
+  ID: 447
+  Src: s10
+  Time: 5.506958160799654
+448:
+  Category: 0
+  Dst: s11
+  ID: 448
+  Src: s2
+  Time: 5.5133427852667936
+449:
+  Category: 0
+  Dst: s14
+  ID: 449
+  Src: s22
+  Time: 5.533090564226978
+450:
+  Category: 0
+  Dst: s9
+  ID: 450
+  Src: s15
+  Time: 5.533972601278003
+451:
+  Category: 1
+  Dst: s7
+  ID: 451
+  Src: s1
+  Time: 5.554981513680673
+452:
+  Category: 0
+  Dst: s18
+  ID: 452
+  Src: s0
+  Time: 5.577396596703771
+453:
+  Category: 0
+  Dst: s14
+  ID: 453
+  Src: s22
+  Time: 5.579866924500442
+454:
+  Category: 0
+  Dst: s23
+  ID: 454
+  Src: s3
+  Time: 5.581939592435853
+455:
+  Category: 0
+  Dst: s22
+  ID: 455
+  Src: s10
+  Time: 5.586245423671924
+456:
+  Category: 0
+  Dst: s0
+  ID: 456
+  Src: s10
+  Time: 5.587982753150602
+457:
+  Category: 0
+  Dst: s8
+  ID: 457
+  Src: s22
+  Time: 5.609602418250285
+458:
+  Category: 0
+  Dst: s18
+  ID: 458
+  Src: s20
+  Time: 5.6223622323812785
+459:
+  Category: 0
+  Dst: s4
+  ID: 459
+  Src: s0
+  Time: 5.637682987780402
+460:
+  Category: 0
+  Dst: s11
+  ID: 460
+  Src: s1
+  Time: 5.68248127234625
+461:
+  Category: 0
+  Dst: s11
+  ID: 461
+  Src: s0
+  Time: 5.708466170549104
+462:
+  Category: 1
+  Dst: s3
+  ID: 462
+  Src: s7
+  Time: 5.70900795528126
+463:
+  Category: 0
+  Dst: s9
+  ID: 463
+  Src: s21
+  Time: 5.732167136119382
+464:
+  Category: 1
+  Dst: s13
+  ID: 464
+  Src: s22
+  Time: 5.75792758260625
+465:
+  Category: 1
+  Dst: s3
+  ID: 465
+  Src: s0
+  Time: 5.76013116938923
+466:
+  Category: 0
+  Dst: s4
+  ID: 466
+  Src: s21
+  Time: 5.760576029352432
+467:
+  Category: 0
+  Dst: s0
+  ID: 467
+  Src: s21
+  Time: 5.771997519578021
+468:
+  Category: 0
+  Dst: s0
+  ID: 468
+  Src: s9
+  Time: 5.7758129551629125
+469:
+  Category: 0
+  Dst: s8
+  ID: 469
+  Src: s9
+  Time: 5.789660283727642
+470:
+  Category: 1
+  Dst: s3
+  ID: 470
+  Src: s14
+  Time: 5.790836502333667
+471:
+  Category: 1
+  Dst: s8
+  ID: 471
+  Src: s1
+  Time: 5.829234744445861
+472:
+  Category: 0
+  Dst: s22
+  ID: 472
+  Src: s14
+  Time: 5.840578152876169
+473:
+  Category: 0
+  Dst: s19
+  ID: 473
+  Src: s18
+  Time: 5.845890887311068
+474:
+  Category: 0
+  Dst: s24
+  ID: 474
+  Src: s4
+  Time: 5.846161202893148
+475:
+  Category: 0
+  Dst: s3
+  ID: 475
+  Src: s9
+  Time: 5.851948203760539
+476:
+  Category: 0
+  Dst: s5
+  ID: 476
+  Src: s1
+  Time: 5.871080637608037
+477:
+  Category: 0
+  Dst: s24
+  ID: 477
+  Src: s2
+  Time: 5.880704842034662
+478:
+  Category: 0
+  Dst: s13
+  ID: 478
+  Src: s12
+  Time: 5.914735673119265
+479:
+  Category: 0
+  Dst: s19
+  ID: 479
+  Src: s24
+  Time: 5.923610203540264
+480:
+  Category: 1
+  Dst: s4
+  ID: 480
+  Src: s15
+  Time: 5.952580816380969
+481:
+  Category: 0
+  Dst: s24
+  ID: 481
+  Src: s11
+  Time: 5.964921007579818
+482:
+  Category: 0
+  Dst: s12
+  ID: 482
+  Src: s19
+  Time: 5.96667665593728
+483:
+  Category: 0
+  Dst: s19
+  ID: 483
+  Src: s5
+  Time: 5.972558063634219
+484:
+  Category: 0
+  Dst: s17
+  ID: 484
+  Src: s20
+  Time: 5.983606756451589
+485:
+  Category: 0
+  Dst: s8
+  ID: 485
+  Src: s0
+  Time: 6.006968261591574
+486:
+  Category: 0
+  Dst: s4
+  ID: 486
+  Src: s6
+  Time: 6.012243593317492
+487:
+  Category: 1
+  Dst: s0
+  ID: 487
+  Src: s8
+  Time: 6.0142864165408625
+488:
+  Category: 1
+  Dst: s14
+  ID: 488
+  Src: s0
+  Time: 6.019954311707211
+489:
+  Category: 1
+  Dst: s24
+  ID: 489
+  Src: s10
+  Time: 6.041899445614654
+490:
+  Category: 0
+  Dst: s15
+  ID: 490
+  Src: s9
+  Time: 6.042892563362522
+491:
+  Category: 0
+  Dst: s4
+  ID: 491
+  Src: s11
+  Time: 6.058191739197537
+492:
+  Category: 0
+  Dst: s22
+  ID: 492
+  Src: s20
+  Time: 6.066133930871715
+493:
+  Category: 0
+  Dst: s1
+  ID: 493
+  Src: s12
+  Time: 6.077907961865815
+494:
+  Category: 0
+  Dst: s15
+  ID: 494
+  Src: s16
+  Time: 6.0921548316234535
+495:
+  Category: 0
+  Dst: s1
+  ID: 495
+  Src: s8
+  Time: 6.102884843175311
+496:
+  Category: 0
+  Dst: s14
+  ID: 496
+  Src: s2
+  Time: 6.131040227614756
+497:
+  Category: 0
+  Dst: s3
+  ID: 497
+  Src: s1
+  Time: 6.140083366095902
+498:
+  Category: 0
+  Dst: s15
+  ID: 498
+  Src: s14
+  Time: 6.169796311816248
+499:
+  Category: 0
+  Dst: s18
+  ID: 499
+  Src: s2
+  Time: 6.169881166487592
+500:
+  Category: 1
+  Dst: s4
+  ID: 500
+  Src: s16
+  Time: 6.171142075817981
+501:
+  Category: 0
+  Dst: s4
+  ID: 501
+  Src: s9
+  Time: 6.196943050164945
+502:
+  Category: 0
+  Dst: s24
+  ID: 502
+  Src: s14
+  Time: 6.199315551935142
+503:
+  Category: 1
+  Dst: s2
+  ID: 503
+  Src: s0
+  Time: 6.210160716108582
+504:
+  Category: 0
+  Dst: s8
+  ID: 504
+  Src: s24
+  Time: 6.261948577215604
+505:
+  Category: 0
+  Dst: s17
+  ID: 505
+  Src: s22
+  Time: 6.267759350205401
+506:
+  Category: 0
+  Dst: s10
+  ID: 506
+  Src: s18
+  Time: 6.276795092280212
+507:
+  Category: 0
+  Dst: s3
+  ID: 507
+  Src: s22
+  Time: 6.292796378844011
+508:
+  Category: 0
+  Dst: s10
+  ID: 508
+  Src: s5
+  Time: 6.293229952098786
+509:
+  Category: 0
+  Dst: s3
+  ID: 509
+  Src: s16
+  Time: 6.321323210148768
+510:
+  Category: 1
+  Dst: s8
+  ID: 510
+  Src: s0
+  Time: 6.3231338787165114
+511:
+  Category: 1
+  Dst: s19
+  ID: 511
+  Src: s14
+  Time: 6.329653343577564
+512:
+  Category: 0
+  Dst: s0
+  ID: 512
+  Src: s1
+  Time: 6.3469398764010325
+513:
+  Category: 0
+  Dst: s2
+  ID: 513
+  Src: s12
+  Time: 6.35490904737622
+514:
+  Category: 0
+  Dst: s0
+  ID: 514
+  Src: s20
+  Time: 6.355297802183259
+515:
+  Category: 0
+  Dst: s21
+  ID: 515
+  Src: s20
+  Time: 6.3590099518210526
+516:
+  Category: 1
+  Dst: s13
+  ID: 516
+  Src: s14
+  Time: 6.371184774978465
+517:
+  Category: 1
+  Dst: s19
+  ID: 517
+  Src: s18
+  Time: 6.374275069464749
+518:
+  Category: 0
+  Dst: s1
+  ID: 518
+  Src: s10
+  Time: 6.467548036817362
+519:
+  Category: 1
+  Dst: s14
+  ID: 519
+  Src: s18
+  Time: 6.470851455586129
+520:
+  Category: 0
+  Dst: s3
+  ID: 520
+  Src: s0
+  Time: 6.490881413378583
+521:
+  Category: 1
+  Dst: s2
+  ID: 521
+  Src: s16
+  Time: 6.501454108962995
+522:
+  Category: 0
+  Dst: s17
+  ID: 522
+  Src: s4
+  Time: 6.508622201182147
+523:
+  Category: 0
+  Dst: s2
+  ID: 523
+  Src: s24
+  Time: 6.516113111499957
+524:
+  Category: 1
+  Dst: s2
+  ID: 524
+  Src: s18
+  Time: 6.537586379668582
+525:
+  Category: 1
+  Dst: s4
+  ID: 525
+  Src: s18
+  Time: 6.567428374895075
+526:
+  Category: 0
+  Dst: s11
+  ID: 526
+  Src: s18
+  Time: 6.5726417018236205
+527:
+  Category: 0
+  Dst: s17
+  ID: 527
+  Src: s12
+  Time: 6.5759626755624065
+528:
+  Category: 0
+  Dst: s13
+  ID: 528
+  Src: s8
+  Time: 6.576157695279969
+529:
+  Category: 0
+  Dst: s3
+  ID: 529
+  Src: s4
+  Time: 6.578818374347521
+530:
+  Category: 1
+  Dst: s6
+  ID: 530
+  Src: s8
+  Time: 6.588970583124092
+531:
+  Category: 1
+  Dst: s7
+  ID: 531
+  Src: s4
+  Time: 6.602621804127676
+532:
+  Category: 0
+  Dst: s16
+  ID: 532
+  Src: s20
+  Time: 6.611094162963038
+533:
+  Category: 0
+  Dst: s17
+  ID: 533
+  Src: s6
+  Time: 6.611542105363893
+534:
+  Category: 0
+  Dst: s11
+  ID: 534
+  Src: s18
+  Time: 6.623393739428309
+535:
+  Category: 1
+  Dst: s22
+  ID: 535
+  Src: s6
+  Time: 6.625861259270802
+536:
+  Category: 1
+  Dst: s2
+  ID: 536
+  Src: s8
+  Time: 6.635574075792325
+537:
+  Category: 0
+  Dst: s11
+  ID: 537
+  Src: s0
+  Time: 6.64877099883426
+538:
+  Category: 0
+  Dst: s15
+  ID: 538
+  Src: s1
+  Time: 6.674300813317005
+539:
+  Category: 0
+  Dst: s23
+  ID: 539
+  Src: s15
+  Time: 6.679401615725441
+540:
+  Category: 1
+  Dst: s5
+  ID: 540
+  Src: s20
+  Time: 6.69671826271035
+541:
+  Category: 1
+  Dst: s8
+  ID: 541
+  Src: s18
+  Time: 6.729544698716408
+542:
+  Category: 0
+  Dst: s19
+  ID: 542
+  Src: s14
+  Time: 6.747837570443373
+543:
+  Category: 1
+  Dst: s13
+  ID: 543
+  Src: s10
+  Time: 6.76008229186223
+544:
+  Category: 0
+  Dst: s6
+  ID: 544
+  Src: s3
+  Time: 6.760952864908498
+545:
+  Category: 0
+  Dst: s9
+  ID: 545
+  Src: s6
+  Time: 6.771925638326202
+546:
+  Category: 0
+  Dst: s13
+  ID: 546
+  Src: s18
+  Time: 6.772518560880195
+547:
+  Category: 0
+  Dst: s21
+  ID: 547
+  Src: s20
+  Time: 6.785276626719187
+548:
+  Category: 0
+  Dst: s23
+  ID: 548
+  Src: s11
+  Time: 6.795435951524112
+549:
+  Category: 0
+  Dst: s23
+  ID: 549
+  Src: s9
+  Time: 6.808111254838567
+550:
+  Category: 0
+  Dst: s3
+  ID: 550
+  Src: s5
+  Time: 6.812563461665626
+551:
+  Category: 0
+  Dst: s18
+  ID: 551
+  Src: s15
+  Time: 6.827132982625695
+552:
+  Category: 1
+  Dst: s21
+  ID: 552
+  Src: s11
+  Time: 6.828110892583901
+553:
+  Category: 0
+  Dst: s5
+  ID: 553
+  Src: s22
+  Time: 6.836044709610251
+554:
+  Category: 0
+  Dst: s15
+  ID: 554
+  Src: s10
+  Time: 6.836205186626204
+555:
+  Category: 0
+  Dst: s15
+  ID: 555
+  Src: s6
+  Time: 6.846487622003087
+556:
+  Category: 0
+  Dst: s12
+  ID: 556
+  Src: s9
+  Time: 6.851422859785023
+557:
+  Category: 0
+  Dst: s18
+  ID: 557
+  Src: s1
+  Time: 6.855642486440112
+558:
+  Category: 0
+  Dst: s12
+  ID: 558
+  Src: s0
+  Time: 6.892203058662163
+559:
+  Category: 0
+  Dst: s22
+  ID: 559
+  Src: s5
+  Time: 6.892890792928286
+560:
+  Category: 0
+  Dst: s19
+  ID: 560
+  Src: s18
+  Time: 6.90759824690403
+561:
+  Category: 0
+  Dst: s23
+  ID: 561
+  Src: s22
+  Time: 6.91280034496973
+562:
+  Category: 0
+  Dst: s3
+  ID: 562
+  Src: s5
+  Time: 6.929302482883698
+563:
+  Category: 0
+  Dst: s13
+  ID: 563
+  Src: s10
+  Time: 6.961582212010954
+564:
+  Category: 0
+  Dst: s22
+  ID: 564
+  Src: s11
+  Time: 6.964315705819137
+565:
+  Category: 0
+  Dst: s10
+  ID: 565
+  Src: s18
+  Time: 6.965720676570124
+566:
+  Category: 1
+  Dst: s10
+  ID: 566
+  Src: s1
+  Time: 6.967234503273383
+567:
+  Category: 1
+  Dst: s22
+  ID: 567
+  Src: s20
+  Time: 6.976734619352495
+568:
+  Category: 1
+  Dst: s19
+  ID: 568
+  Src: s17
+  Time: 6.980183145188158
+569:
+  Category: 1
+  Dst: s17
+  ID: 569
+  Src: s0
+  Time: 6.988324230752391
+570:
+  Category: 0
+  Dst: s3
+  ID: 570
+  Src: s4
+  Time: 7.010985415204609
+571:
+  Category: 0
+  Dst: s0
+  ID: 571
+  Src: s18
+  Time: 7.017236339630831
+572:
+  Category: 0
+  Dst: s17
+  ID: 572
+  Src: s10
+  Time: 7.0209913962138675
+573:
+  Category: 0
+  Dst: s5
+  ID: 573
+  Src: s10
+  Time: 7.02719601110638
+574:
+  Category: 1
+  Dst: s0
+  ID: 574
+  Src: s1
+  Time: 7.061203778152546
+575:
+  Category: 0
+  Dst: s9
+  ID: 575
+  Src: s0
+  Time: 7.091039012534585
+576:
+  Category: 0
+  Dst: s17
+  ID: 576
+  Src: s18
+  Time: 7.092831876323532
+577:
+  Category: 1
+  Dst: s8
+  ID: 577
+  Src: s12
+  Time: 7.104645973329889
+578:
+  Category: 1
+  Dst: s1
+  ID: 578
+  Src: s4
+  Time: 7.132327669031547
+579:
+  Category: 0
+  Dst: s1
+  ID: 579
+  Src: s16
+  Time: 7.138197267945038
+580:
+  Category: 0
+  Dst: s9
+  ID: 580
+  Src: s8
+  Time: 7.145474170660986
+581:
+  Category: 0
+  Dst: s5
+  ID: 581
+  Src: s10
+  Time: 7.145807715733092
+582:
+  Category: 1
+  Dst: s17
+  ID: 582
+  Src: s1
+  Time: 7.164929413876836
+583:
+  Category: 0
+  Dst: s24
+  ID: 583
+  Src: s18
+  Time: 7.170618893187518
+584:
+  Category: 0
+  Dst: s8
+  ID: 584
+  Src: s15
+  Time: 7.192394545802648
+585:
+  Category: 1
+  Dst: s24
+  ID: 585
+  Src: s17
+  Time: 7.197421382346466
+586:
+  Category: 0
+  Dst: s21
+  ID: 586
+  Src: s10
+  Time: 7.206665567636044
+587:
+  Category: 1
+  Dst: s22
+  ID: 587
+  Src: s0
+  Time: 7.218675698343038
+588:
+  Category: 1
+  Dst: s9
+  ID: 588
+  Src: s6
+  Time: 7.24446277232323
+589:
+  Category: 0
+  Dst: s13
+  ID: 589
+  Src: s4
+  Time: 7.247740899495043
+590:
+  Category: 0
+  Dst: s5
+  ID: 590
+  Src: s14
+  Time: 7.253953566062091
+591:
+  Category: 0
+  Dst: s13
+  ID: 591
+  Src: s0
+  Time: 7.284349236839649
+592:
+  Category: 1
+  Dst: s14
+  ID: 592
+  Src: s2
+  Time: 7.289811649803056
+593:
+  Category: 1
+  Dst: s0
+  ID: 593
+  Src: s24
+  Time: 7.297040893120719
+594:
+  Category: 0
+  Dst: s13
+  ID: 594
+  Src: s6
+  Time: 7.3078621016800875
+595:
+  Category: 0
+  Dst: s0
+  ID: 595
+  Src: s9
+  Time: 7.343363746283859
+596:
+  Category: 0
+  Dst: s24
+  ID: 596
+  Src: s5
+  Time: 7.353939312201476
+597:
+  Category: 0
+  Dst: s6
+  ID: 597
+  Src: s24
+  Time: 7.3553578510137285
+598:
+  Category: 0
+  Dst: s1
+  ID: 598
+  Src: s11
+  Time: 7.367945067798664
+599:
+  Category: 0
+  Dst: s17
+  ID: 599
+  Src: s15
+  Time: 7.384817415029515
+600:
+  Category: 0
+  Dst: s22
+  ID: 600
+  Src: s2
+  Time: 7.40433683083398
+601:
+  Category: 0
+  Dst: s8
+  ID: 601
+  Src: s18
+  Time: 7.411291802521335
+602:
+  Category: 0
+  Dst: s12
+  ID: 602
+  Src: s15
+  Time: 7.416595614854929
+603:
+  Category: 1
+  Dst: s19
+  ID: 603
+  Src: s22
+  Time: 7.434346774339042
+604:
+  Category: 1
+  Dst: s6
+  ID: 604
+  Src: s1
+  Time: 7.469258068293161
+605:
+  Category: 0
+  Dst: s17
+  ID: 605
+  Src: s1
+  Time: 7.4734666948069695
+606:
+  Category: 1
+  Dst: s4
+  ID: 606
+  Src: s14
+  Time: 7.475431466072693
+607:
+  Category: 0
+  Dst: s11
+  ID: 607
+  Src: s22
+  Time: 7.527570315161887
+608:
+  Category: 0
+  Dst: s11
+  ID: 608
+  Src: s18
+  Time: 7.528229536616706
+609:
+  Category: 0
+  Dst: s13
+  ID: 609
+  Src: s1
+  Time: 7.535095214170102
+610:
+  Category: 1
+  Dst: s9
+  ID: 610
+  Src: s24
+  Time: 7.540121052073895
+611:
+  Category: 0
+  Dst: s8
+  ID: 611
+  Src: s6
+  Time: 7.55111443745789
+612:
+  Category: 1
+  Dst: s22
+  ID: 612
+  Src: s2
+  Time: 7.5661073809630714
+613:
+  Category: 0
+  Dst: s19
+  ID: 613
+  Src: s18
+  Time: 7.566319554452804
+614:
+  Category: 0
+  Dst: s4
+  ID: 614
+  Src: s5
+  Time: 7.582244076667406
+615:
+  Category: 0
+  Dst: s17
+  ID: 615
+  Src: s15
+  Time: 7.598157309477317
+616:
+  Category: 0
+  Dst: s11
+  ID: 616
+  Src: s10
+  Time: 7.613485664958822
+617:
+  Category: 0
+  Dst: s15
+  ID: 617
+  Src: s22
+  Time: 7.613627380716239
+618:
+  Category: 0
+  Dst: s20
+  ID: 618
+  Src: s3
+  Time: 7.614269899365716
+619:
+  Category: 0
+  Dst: s1
+  ID: 619
+  Src: s24
+  Time: 7.621817528506181
+620:
+  Category: 0
+  Dst: s11
+  ID: 620
+  Src: s10
+  Time: 7.629232336268507
+621:
+  Category: 0
+  Dst: s23
+  ID: 621
+  Src: s8
+  Time: 7.641052160189447
+622:
+  Category: 1
+  Dst: s2
+  ID: 622
+  Src: s0
+  Time: 7.652567627597916
+623:
+  Category: 0
+  Dst: s1
+  ID: 623
+  Src: s22
+  Time: 7.67799191507067
+624:
+  Category: 1
+  Dst: s11
+  ID: 624
+  Src: s14
+  Time: 7.687636479318723
+625:
+  Category: 0
+  Dst: s8
+  ID: 625
+  Src: s12
+  Time: 7.688435305222917
+626:
+  Category: 0
+  Dst: s4
+  ID: 626
+  Src: s11
+  Time: 7.689247461501285
+627:
+  Category: 0
+  Dst: s9
+  ID: 627
+  Src: s20
+  Time: 7.708471558612629
+628:
+  Category: 0
+  Dst: s18
+  ID: 628
+  Src: s14
+  Time: 7.721371296232553
+629:
+  Category: 0
+  Dst: s24
+  ID: 629
+  Src: s20
+  Time: 7.756532810130766
+630:
+  Category: 1
+  Dst: s22
+  ID: 630
+  Src: s1
+  Time: 7.763194103847994
+631:
+  Category: 0
+  Dst: s15
+  ID: 631
+  Src: s10
+  Time: 7.774046546268734
+632:
+  Category: 0
+  Dst: s10
+  ID: 632
+  Src: s24
+  Time: 7.778767075800269
+633:
+  Category: 1
+  Dst: s8
+  ID: 633
+  Src: s2
+  Time: 7.781400516867805
+634:
+  Category: 0
+  Dst: s24
+  ID: 634
+  Src: s16
+  Time: 7.782952486612948
+635:
+  Category: 1
+  Dst: s19
+  ID: 635
+  Src: s24
+  Time: 7.786445592216847
+636:
+  Category: 1
+  Dst: s15
+  ID: 636
+  Src: s24
+  Time: 7.789247053486868
+637:
+  Category: 0
+  Dst: s8
+  ID: 637
+  Src: s18
+  Time: 7.79517437578974
+638:
+  Category: 0
+  Dst: s18
+  ID: 638
+  Src: s2
+  Time: 7.799252747344526
+639:
+  Category: 0
+  Dst: s1
+  ID: 639
+  Src: s16
+  Time: 7.803266888127155
+640:
+  Category: 1
+  Dst: s6
+  ID: 640
+  Src: s3
+  Time: 7.816070731726452
+641:
+  Category: 1
+  Dst: s5
+  ID: 641
+  Src: s10
+  Time: 7.819463743180007
+642:
+  Category: 0
+  Dst: s15
+  ID: 642
+  Src: s0
+  Time: 7.822016970691839
+643:
+  Category: 0
+  Dst: s14
+  ID: 643
+  Src: s4
+  Time: 7.860821622720584
+644:
+  Category: 0
+  Dst: s21
+  ID: 644
+  Src: s12
+  Time: 7.873052386759421
+645:
+  Category: 1
+  Dst: s17
+  ID: 645
+  Src: s18
+  Time: 7.900684754467223
+646:
+  Category: 0
+  Dst: s17
+  ID: 646
+  Src: s18
+  Time: 7.90670155795027
+647:
+  Category: 0
+  Dst: s23
+  ID: 647
+  Src: s8
+  Time: 7.9099981525687495
+648:
+  Category: 0
+  Dst: s14
+  ID: 648
+  Src: s2
+  Time: 7.911016005572866
+649:
+  Category: 0
+  Dst: s1
+  ID: 649
+  Src: s9
+  Time: 7.922273925508895
+650:
+  Category: 0
+  Dst: s8
+  ID: 650
+  Src: s10
+  Time: 7.927024771048755
+651:
+  Category: 0
+  Dst: s3
+  ID: 651
+  Src: s22
+  Time: 7.927850858367076
+652:
+  Category: 1
+  Dst: s4
+  ID: 652
+  Src: s15
+  Time: 7.9279944687987545
+653:
+  Category: 1
+  Dst: s11
+  ID: 653
+  Src: s0
+  Time: 7.957013405340439
+654:
+  Category: 0
+  Dst: s23
+  ID: 654
+  Src: s1
+  Time: 7.9603892475194264
+655:
+  Category: 0
+  Dst: s24
+  ID: 655
+  Src: s22
+  Time: 7.962489517317292
+656:
+  Category: 0
+  Dst: s10
+  ID: 656
+  Src: s20
+  Time: 7.988753194057653
+657:
+  Category: 1
+  Dst: s3
+  ID: 657
+  Src: s18
+  Time: 7.992397727556041
+658:
+  Category: 0
+  Dst: s22
+  ID: 658
+  Src: s9
+  Time: 7.997043453233667
+659:
+  Category: 0
+  Dst: s24
+  ID: 659
+  Src: s6
+  Time: 7.9977069376755345
+660:
+  Category: 0
+  Dst: s8
+  ID: 660
+  Src: s15
+  Time: 8.01606835249662
+661:
+  Category: 0
+  Dst: s22
+  ID: 661
+  Src: s24
+  Time: 8.033525554151407
+662:
+  Category: 0
+  Dst: s15
+  ID: 662
+  Src: s9
+  Time: 8.038366773746986
+663:
+  Category: 0
+  Dst: s8
+  ID: 663
+  Src: s20
+  Time: 8.042380394375346
+664:
+  Category: 0
+  Dst: s4
+  ID: 664
+  Src: s10
+  Time: 8.061616549323391
+665:
+  Category: 0
+  Dst: s0
+  ID: 665
+  Src: s20
+  Time: 8.06367224217803
+666:
+  Category: 1
+  Dst: s14
+  ID: 666
+  Src: s15
+  Time: 8.079576715242741
+667:
+  Category: 0
+  Dst: s10
+  ID: 667
+  Src: s2
+  Time: 8.08204571104664
+668:
+  Category: 0
+  Dst: s11
+  ID: 668
+  Src: s20
+  Time: 8.099417851069468
+669:
+  Category: 0
+  Dst: s9
+  ID: 669
+  Src: s12
+  Time: 8.127334538180161
+670:
+  Category: 0
+  Dst: s11
+  ID: 670
+  Src: s4
+  Time: 8.1309844321122
+671:
+  Category: 0
+  Dst: s5
+  ID: 671
+  Src: s24
+  Time: 8.163017068255046
+672:
+  Category: 0
+  Dst: s15
+  ID: 672
+  Src: s2
+  Time: 8.174456619031442
+673:
+  Category: 0
+  Dst: s8
+  ID: 673
+  Src: s2
+  Time: 8.191643977347088
+674:
+  Category: 1
+  Dst: s17
+  ID: 674
+  Src: s23
+  Time: 8.198039630626276
+675:
+  Category: 0
+  Dst: s24
+  ID: 675
+  Src: s1
+  Time: 8.2216815783528
+676:
+  Category: 0
+  Dst: s10
+  ID: 676
+  Src: s20
+  Time: 8.2224325141703
+677:
+  Category: 0
+  Dst: s9
+  ID: 677
+  Src: s2
+  Time: 8.230631732823788
+678:
+  Category: 0
+  Dst: s19
+  ID: 678
+  Src: s15
+  Time: 8.247310725325153
+679:
+  Category: 0
+  Dst: s23
+  ID: 679
+  Src: s11
+  Time: 8.260631412005239
+680:
+  Category: 0
+  Dst: s4
+  ID: 680
+  Src: s0
+  Time: 8.269122316982017
+681:
+  Category: 0
+  Dst: s1
+  ID: 681
+  Src: s22
+  Time: 8.27087136209001
+682:
+  Category: 1
+  Dst: s24
+  ID: 682
+  Src: s2
+  Time: 8.28820262765417
+683:
+  Category: 0
+  Dst: s11
+  ID: 683
+  Src: s18
+  Time: 8.29116847852742
+684:
+  Category: 0
+  Dst: s6
+  ID: 684
+  Src: s9
+  Time: 8.300204754388563
+685:
+  Category: 0
+  Dst: s4
+  ID: 685
+  Src: s10
+  Time: 8.33796502407769
+686:
+  Category: 0
+  Dst: s4
+  ID: 686
+  Src: s14
+  Time: 8.344107614569868
+687:
+  Category: 0
+  Dst: s14
+  ID: 687
+  Src: s1
+  Time: 8.345631833644447
+688:
+  Category: 0
+  Dst: s17
+  ID: 688
+  Src: s8
+  Time: 8.370868697409186
+689:
+  Category: 1
+  Dst: s9
+  ID: 689
+  Src: s1
+  Time: 8.39025698435178
+690:
+  Category: 0
+  Dst: s13
+  ID: 690
+  Src: s22
+  Time: 8.392961473579936
+691:
+  Category: 1
+  Dst: s11
+  ID: 691
+  Src: s18
+  Time: 8.3972073836629
+692:
+  Category: 1
+  Dst: s8
+  ID: 692
+  Src: s16
+  Time: 8.414601794044522
+693:
+  Category: 0
+  Dst: s23
+  ID: 693
+  Src: s22
+  Time: 8.437156964960966
+694:
+  Category: 0
+  Dst: s6
+  ID: 694
+  Src: s18
+  Time: 8.440052431704974
+695:
+  Category: 0
+  Dst: s3
+  ID: 695
+  Src: s20
+  Time: 8.44614159672618
+696:
+  Category: 0
+  Dst: s11
+  ID: 696
+  Src: s4
+  Time: 8.448087816896843
+697:
+  Category: 1
+  Dst: s10
+  ID: 697
+  Src: s20
+  Time: 8.46575243991598
+698:
+  Category: 0
+  Dst: s10
+  ID: 698
+  Src: s2
+  Time: 8.467195243612483
+699:
+  Category: 0
+  Dst: s12
+  ID: 699
+  Src: s4
+  Time: 8.487330152894861
+700:
+  Category: 0
+  Dst: s14
+  ID: 700
+  Src: s18
+  Time: 8.49741437468146
+701:
+  Category: 0
+  Dst: s4
+  ID: 701
+  Src: s1
+  Time: 8.498738116900654
+702:
+  Category: 1
+  Dst: s24
+  ID: 702
+  Src: s5
+  Time: 8.509595982405322
+703:
+  Category: 0
+  Dst: s3
+  ID: 703
+  Src: s14
+  Time: 8.511256398890474
+704:
+  Category: 0
+  Dst: s24
+  ID: 704
+  Src: s4
+  Time: 8.551171269619712
+705:
+  Category: 0
+  Dst: s11
+  ID: 705
+  Src: s4
+  Time: 8.551955140829614
+706:
+  Category: 0
+  Dst: s2
+  ID: 706
+  Src: s15
+  Time: 8.564418370448507
+707:
+  Category: 0
+  Dst: s19
+  ID: 707
+  Src: s11
+  Time: 8.580222025296207
+708:
+  Category: 0
+  Dst: s14
+  ID: 708
+  Src: s4
+  Time: 8.585368680714236
+709:
+  Category: 0
+  Dst: s15
+  ID: 709
+  Src: s4
+  Time: 8.618353659858116
+710:
+  Category: 1
+  Dst: s15
+  ID: 710
+  Src: s22
+  Time: 8.62180773882984
+711:
+  Category: 1
+  Dst: s24
+  ID: 711
+  Src: s0
+  Time: 8.63620785803164
+712:
+  Category: 1
+  Dst: s8
+  ID: 712
+  Src: s0
+  Time: 8.657182441751486
+713:
+  Category: 0
+  Dst: s21
+  ID: 713
+  Src: s22
+  Time: 8.710412740807676
+714:
+  Category: 0
+  Dst: s3
+  ID: 714
+  Src: s20
+  Time: 8.72835190453634
+715:
+  Category: 1
+  Dst: s9
+  ID: 715
+  Src: s7
+  Time: 8.732167146733733
+716:
+  Category: 1
+  Dst: s8
+  ID: 716
+  Src: s1
+  Time: 8.735955108186431
+717:
+  Category: 0
+  Dst: s13
+  ID: 717
+  Src: s0
+  Time: 8.762234595112467
+718:
+  Category: 0
+  Dst: s13
+  ID: 718
+  Src: s18
+  Time: 8.791046330595302
+719:
+  Category: 1
+  Dst: s4
+  ID: 719
+  Src: s18
+  Time: 8.803681237695708
+720:
+  Category: 0
+  Dst: s13
+  ID: 720
+  Src: s11
+  Time: 8.804187910163652
+721:
+  Category: 0
+  Dst: s2
+  ID: 721
+  Src: s1
+  Time: 8.813965619454997
+722:
+  Category: 0
+  Dst: s3
+  ID: 722
+  Src: s18
+  Time: 8.82130326613486
+723:
+  Category: 1
+  Dst: s1
+  ID: 723
+  Src: s20
+  Time: 8.839319477456195
+724:
+  Category: 0
+  Dst: s17
+  ID: 724
+  Src: s9
+  Time: 8.845981028119692
+725:
+  Category: 0
+  Dst: s1
+  ID: 725
+  Src: s22
+  Time: 8.86233894199146
+726:
+  Category: 0
+  Dst: s19
+  ID: 726
+  Src: s0
+  Time: 8.869317275828049
+727:
+  Category: 0
+  Dst: s23
+  ID: 727
+  Src: s18
+  Time: 8.891364962072169
+728:
+  Category: 0
+  Dst: s10
+  ID: 728
+  Src: s5
+  Time: 8.91740089894586
+729:
+  Category: 0
+  Dst: s23
+  ID: 729
+  Src: s2
+  Time: 8.93610631599612
+730:
+  Category: 0
+  Dst: s14
+  ID: 730
+  Src: s20
+  Time: 8.940656264976782
+731:
+  Category: 0
+  Dst: s1
+  ID: 731
+  Src: s20
+  Time: 8.954095039694161
+732:
+  Category: 0
+  Dst: s14
+  ID: 732
+  Src: s18
+  Time: 8.966875705185622
+733:
+  Category: 0
+  Dst: s24
+  ID: 733
+  Src: s1
+  Time: 8.96785408399406
+734:
+  Category: 1
+  Dst: s12
+  ID: 734
+  Src: s17
+  Time: 8.977787373833653
+735:
+  Category: 0
+  Dst: s18
+  ID: 735
+  Src: s14
+  Time: 8.988066323532708
+736:
+  Category: 1
+  Dst: s9
+  ID: 736
+  Src: s24
+  Time: 9.003334030179072
+737:
+  Category: 0
+  Dst: s13
+  ID: 737
+  Src: s10
+  Time: 9.024179501113924
+738:
+  Category: 0
+  Dst: s20
+  ID: 738
+  Src: s14
+  Time: 9.02515750604369
+739:
+  Category: 0
+  Dst: s5
+  ID: 739
+  Src: s18
+  Time: 9.04371888039554
+740:
+  Category: 0
+  Dst: s14
+  ID: 740
+  Src: s20
+  Time: 9.055273074523537
+741:
+  Category: 0
+  Dst: s15
+  ID: 741
+  Src: s0
+  Time: 9.062561923557366
+742:
+  Category: 1
+  Dst: s17
+  ID: 742
+  Src: s24
+  Time: 9.063469673425262
+743:
+  Category: 1
+  Dst: s13
+  ID: 743
+  Src: s20
+  Time: 9.06839643411547
+744:
+  Category: 0
+  Dst: s20
+  ID: 744
+  Src: s18
+  Time: 9.088745919292524
+745:
+  Category: 0
+  Dst: s14
+  ID: 745
+  Src: s24
+  Time: 9.107753547896404
+746:
+  Category: 1
+  Dst: s7
+  ID: 746
+  Src: s16
+  Time: 9.118662644412876
+747:
+  Category: 1
+  Dst: s11
+  ID: 747
+  Src: s8
+  Time: 9.124605137562826
+748:
+  Category: 0
+  Dst: s19
+  ID: 748
+  Src: s18
+  Time: 9.12490609340195
+749:
+  Category: 0
+  Dst: s1
+  ID: 749
+  Src: s22
+  Time: 9.126609877522249
+750:
+  Category: 0
+  Dst: s1
+  ID: 750
+  Src: s8
+  Time: 9.143632112007534
+751:
+  Category: 0
+  Dst: s2
+  ID: 751
+  Src: s18
+  Time: 9.162560267174662
+752:
+  Category: 0
+  Dst: s23
+  ID: 752
+  Src: s11
+  Time: 9.179525225296693
+753:
+  Category: 0
+  Dst: s13
+  ID: 753
+  Src: s8
+  Time: 9.179588459050951
+754:
+  Category: 0
+  Dst: s1
+  ID: 754
+  Src: s20
+  Time: 9.190054847194071
+755:
+  Category: 0
+  Dst: s11
+  ID: 755
+  Src: s10
+  Time: 9.197738177109038
+756:
+  Category: 0
+  Dst: s3
+  ID: 756
+  Src: s14
+  Time: 9.21231650086764
+757:
+  Category: 0
+  Dst: s10
+  ID: 757
+  Src: s18
+  Time: 9.220046789396896
+758:
+  Category: 1
+  Dst: s13
+  ID: 758
+  Src: s20
+  Time: 9.222110022862973
+759:
+  Category: 0
+  Dst: s15
+  ID: 759
+  Src: s4
+  Time: 9.224916284984594
+760:
+  Category: 1
+  Dst: s0
+  ID: 760
+  Src: s16
+  Time: 9.241341841701551
+761:
+  Category: 0
+  Dst: s3
+  ID: 761
+  Src: s10
+  Time: 9.250017054208534
+762:
+  Category: 0
+  Dst: s13
+  ID: 762
+  Src: s0
+  Time: 9.26027131911978
+763:
+  Category: 0
+  Dst: s17
+  ID: 763
+  Src: s4
+  Time: 9.268454839156718
+764:
+  Category: 1
+  Dst: s19
+  ID: 764
+  Src: s21
+  Time: 9.274131851526127
+765:
+  Category: 1
+  Dst: s24
+  ID: 765
+  Src: s18
+  Time: 9.295809246570858
+766:
+  Category: 0
+  Dst: s11
+  ID: 766
+  Src: s8
+  Time: 9.302660266922825
+767:
+  Category: 0
+  Dst: s21
+  ID: 767
+  Src: s15
+  Time: 9.312727843376724
+768:
+  Category: 0
+  Dst: s11
+  ID: 768
+  Src: s24
+  Time: 9.32951786967221
+769:
+  Category: 0
+  Dst: s14
+  ID: 769
+  Src: s22
+  Time: 9.35152361549406
+770:
+  Category: 0
+  Dst: s10
+  ID: 770
+  Src: s12
+  Time: 9.353653671092363
+771:
+  Category: 1
+  Dst: s11
+  ID: 771
+  Src: s10
+  Time: 9.371862864053737
+772:
+  Category: 0
+  Dst: s4
+  ID: 772
+  Src: s11
+  Time: 9.40203533365845
+773:
+  Category: 1
+  Dst: s17
+  ID: 773
+  Src: s16
+  Time: 9.414749062333605
+774:
+  Category: 1
+  Dst: s3
+  ID: 774
+  Src: s4
+  Time: 9.415204649796664
+775:
+  Category: 0
+  Dst: s19
+  ID: 775
+  Src: s14
+  Time: 9.420823423145368
+776:
+  Category: 0
+  Dst: s11
+  ID: 776
+  Src: s0
+  Time: 9.439115866310637
+777:
+  Category: 0
+  Dst: s8
+  ID: 777
+  Src: s14
+  Time: 9.447371430920178
+778:
+  Category: 1
+  Dst: s21
+  ID: 778
+  Src: s6
+  Time: 9.458398040679286
+779:
+  Category: 1
+  Dst: s8
+  ID: 779
+  Src: s24
+  Time: 9.462473884574377
+780:
+  Category: 0
+  Dst: s0
+  ID: 780
+  Src: s1
+  Time: 9.47962028480459
+781:
+  Category: 0
+  Dst: s15
+  ID: 781
+  Src: s21
+  Time: 9.500912662510894
+782:
+  Category: 0
+  Dst: s4
+  ID: 782
+  Src: s8
+  Time: 9.509635159488042
+783:
+  Category: 0
+  Dst: s5
+  ID: 783
+  Src: s9
+  Time: 9.526730118719978
+784:
+  Category: 0
+  Dst: s0
+  ID: 784
+  Src: s15
+  Time: 9.559603740206047
+785:
+  Category: 1
+  Dst: s1
+  ID: 785
+  Src: s8
+  Time: 9.584938857742035
+786:
+  Category: 0
+  Dst: s12
+  ID: 786
+  Src: s3
+  Time: 9.58780925987345
+787:
+  Category: 1
+  Dst: s14
+  ID: 787
+  Src: s8
+  Time: 9.59569953610958
+788:
+  Category: 1
+  Dst: s24
+  ID: 788
+  Src: s10
+  Time: 9.601171670842094
+789:
+  Category: 0
+  Dst: s21
+  ID: 789
+  Src: s9
+  Time: 9.61635575891535
+790:
+  Category: 0
+  Dst: s23
+  ID: 790
+  Src: s20
+  Time: 9.616883415584562
+791:
+  Category: 0
+  Dst: s24
+  ID: 791
+  Src: s16
+  Time: 9.627147460204672
+792:
+  Category: 0
+  Dst: s4
+  ID: 792
+  Src: s24
+  Time: 9.638787305691263
+793:
+  Category: 0
+  Dst: s18
+  ID: 793
+  Src: s24
+  Time: 9.661994564287115
+794:
+  Category: 0
+  Dst: s0
+  ID: 794
+  Src: s6
+  Time: 9.68155250150358
+795:
+  Category: 1
+  Dst: s21
+  ID: 795
+  Src: s1
+  Time: 9.6876021745205
+796:
+  Category: 0
+  Dst: s13
+  ID: 796
+  Src: s3
+  Time: 9.6919239592122
+797:
+  Category: 0
+  Dst: s1
+  ID: 797
+  Src: s10
+  Time: 9.694457672368165
+798:
+  Category: 0
+  Dst: s0
+  ID: 798
+  Src: s24
+  Time: 9.728276383807716
+799:
+  Category: 0
+  Dst: s12
+  ID: 799
+  Src: s18
+  Time: 9.738989682327459
+800:
+  Category: 0
+  Dst: s4
+  ID: 800
+  Src: s3
+  Time: 9.754137812169937
+801:
+  Category: 0
+  Dst: s0
+  ID: 801
+  Src: s10
+  Time: 9.755053945903072
+802:
+  Category: 0
+  Dst: s2
+  ID: 802
+  Src: s0
+  Time: 9.782627710685967
+803:
+  Category: 1
+  Dst: s22
+  ID: 803
+  Src: s10
+  Time: 9.801051636283754
+804:
+  Category: 0
+  Dst: s17
+  ID: 804
+  Src: s15
+  Time: 9.80163919846174
+805:
+  Category: 0
+  Dst: s6
+  ID: 805
+  Src: s2
+  Time: 9.821003887942446
+806:
+  Category: 1
+  Dst: s6
+  ID: 806
+  Src: s18
+  Time: 9.82933004252061
+807:
+  Category: 0
+  Dst: s4
+  ID: 807
+  Src: s21
+  Time: 9.852307349492243
+808:
+  Category: 0
+  Dst: s24
+  ID: 808
+  Src: s14
+  Time: 9.878790709080393
+809:
+  Category: 0
+  Dst: s14
+  ID: 809
+  Src: s6
+  Time: 9.886543898525236
+810:
+  Category: 1
+  Dst: s19
+  ID: 810
+  Src: s4
+  Time: 9.891226931523533
+811:
+  Category: 1
+  Dst: s18
+  ID: 811
+  Src: s8
+  Time: 9.895664853922607
+812:
+  Category: 0
+  Dst: s14
+  ID: 812
+  Src: s22
+  Time: 9.896118619628206
+813:
+  Category: 0
+  Dst: s0
+  ID: 813
+  Src: s17
+  Time: 9.900405376004214
+814:
+  Category: 0
+  Dst: s14
+  ID: 814
+  Src: s20
+  Time: 9.903908825168166
+815:
+  Category: 0
+  Dst: s24
+  ID: 815
+  Src: s5
+  Time: 9.905211229508671
+816:
+  Category: 0
+  Dst: s10
+  ID: 816
+  Src: s20
+  Time: 9.917794548705238
+817:
+  Category: 0
+  Dst: s12
+  ID: 817
+  Src: s5
+  Time: 9.937868726384629
+818:
+  Category: 0
+  Dst: s5
+  ID: 818
+  Src: s20
+  Time: 9.958590010428768
+819:
+  Category: 0
+  Dst: s13
+  ID: 819
+  Src: s10
+  Time: 9.965853622364362
+820:
+  Category: 1
+  Dst: s17
+  ID: 820
+  Src: s15
+  Time: 9.98080414315099
+821:
+  Category: 0
+  Dst: s24
+  ID: 821
+  Src: s17
+  Time: 9.991270059118396
+822:
+  Category: 0
+  Dst: s21
+  ID: 822
+  Src: s1
+  Time: 9.993097584985335
+823:
+  Category: 0
+  Dst: s19
+  ID: 823
+  Src: s20
+  Time: 10.006223962533978
+824:
+  Category: 0
+  Dst: s3
+  ID: 824
+  Src: s1
+  Time: 10.006914654187707
+825:
+  Category: 0
+  Dst: s9
+  ID: 825
+  Src: s19
+  Time: 10.011311460657645
+826:
+  Category: 1
+  Dst: s0
+  ID: 826
+  Src: s14
+  Time: 10.021002971463355
+827:
+  Category: 1
+  Dst: s11
+  ID: 827
+  Src: s12
+  Time: 10.0311650337146
+828:
+  Category: 1
+  Dst: s4
+  ID: 828
+  Src: s2
+  Time: 10.034051364634811
+829:
+  Category: 0
+  Dst: s6
+  ID: 829
+  Src: s18
+  Time: 10.034664066591667
+830:
+  Category: 1
+  Dst: s2
+  ID: 830
+  Src: s24
+  Time: 10.035749281218274
+831:
+  Category: 1
+  Dst: s9
+  ID: 831
+  Src: s11
+  Time: 10.059120822327762
+832:
+  Category: 0
+  Dst: s3
+  ID: 832
+  Src: s10
+  Time: 10.06052038000799
+833:
+  Category: 0
+  Dst: s12
+  ID: 833
+  Src: s15
+  Time: 10.065202055934446
+834:
+  Category: 0
+  Dst: s24
+  ID: 834
+  Src: s20
+  Time: 10.065400764857463
+835:
+  Category: 0
+  Dst: s14
+  ID: 835
+  Src: s12
+  Time: 10.078608323252361
+836:
+  Category: 0
+  Dst: s4
+  ID: 836
+  Src: s6
+  Time: 10.101561649250044
+837:
+  Category: 1
+  Dst: s13
+  ID: 837
+  Src: s9
+  Time: 10.103068345801555
+838:
+  Category: 0
+  Dst: s19
+  ID: 838
+  Src: s18
+  Time: 10.126960528859069
+839:
+  Category: 0
+  Dst: s4
+  ID: 839
+  Src: s9
+  Time: 10.16262172702929
+840:
+  Category: 1
+  Dst: s23
+  ID: 840
+  Src: s14
+  Time: 10.17315303066494
+841:
+  Category: 0
+  Dst: s23
+  ID: 841
+  Src: s22
+  Time: 10.176347974417915
+842:
+  Category: 0
+  Dst: s13
+  ID: 842
+  Src: s10
+  Time: 10.18793491829891
+843:
+  Category: 0
+  Dst: s11
+  ID: 843
+  Src: s10
+  Time: 10.191087768956558
+844:
+  Category: 1
+  Dst: s0
+  ID: 844
+  Src: s15
+  Time: 10.195757683100407
+845:
+  Category: 1
+  Dst: s15
+  ID: 845
+  Src: s14
+  Time: 10.196152053284596
+846:
+  Category: 0
+  Dst: s10
+  ID: 846
+  Src: s14
+  Time: 10.212907552877795
+847:
+  Category: 1
+  Dst: s0
+  ID: 847
+  Src: s14
+  Time: 10.213558667588966
+848:
+  Category: 0
+  Dst: s22
+  ID: 848
+  Src: s15
+  Time: 10.214660145978229
+849:
+  Category: 0
+  Dst: s19
+  ID: 849
+  Src: s20
+  Time: 10.219245933464553
+850:
+  Category: 0
+  Dst: s17
+  ID: 850
+  Src: s11
+  Time: 10.225915172953753
+851:
+  Category: 1
+  Dst: s19
+  ID: 851
+  Src: s12
+  Time: 10.23850509437786
+852:
+  Category: 0
+  Dst: s9
+  ID: 852
+  Src: s5
+  Time: 10.273862243753918
+853:
+  Category: 0
+  Dst: s15
+  ID: 853
+  Src: s22
+  Time: 10.277890240939126
+854:
+  Category: 1
+  Dst: s13
+  ID: 854
+  Src: s14
+  Time: 10.284190430225054
+855:
+  Category: 1
+  Dst: s22
+  ID: 855
+  Src: s18
+  Time: 10.303580655731102
+856:
+  Category: 0
+  Dst: s8
+  ID: 856
+  Src: s18
+  Time: 10.30910436808547
+857:
+  Category: 0
+  Dst: s4
+  ID: 857
+  Src: s24
+  Time: 10.332019708285356
+858:
+  Category: 0
+  Dst: s4
+  ID: 858
+  Src: s17
+  Time: 10.345247972829114
+859:
+  Category: 0
+  Dst: s9
+  ID: 859
+  Src: s22
+  Time: 10.350153506410916
+860:
+  Category: 0
+  Dst: s8
+  ID: 860
+  Src: s10
+  Time: 10.364090188672293
+861:
+  Category: 0
+  Dst: s14
+  ID: 861
+  Src: s16
+  Time: 10.369007085478287
+862:
+  Category: 1
+  Dst: s3
+  ID: 862
+  Src: s24
+  Time: 10.404576975752668
+863:
+  Category: 1
+  Dst: s4
+  ID: 863
+  Src: s12
+  Time: 10.408202518073676
+864:
+  Category: 0
+  Dst: s8
+  ID: 864
+  Src: s22
+  Time: 10.4088838811036
+865:
+  Category: 0
+  Dst: s3
+  ID: 865
+  Src: s20
+  Time: 10.418230535749124
+866:
+  Category: 0
+  Dst: s0
+  ID: 866
+  Src: s9
+  Time: 10.41883447951483
+867:
+  Category: 0
+  Dst: s0
+  ID: 867
+  Src: s6
+  Time: 10.422849835367552
+868:
+  Category: 0
+  Dst: s15
+  ID: 868
+  Src: s1
+  Time: 10.423258915727079
+869:
+  Category: 0
+  Dst: s1
+  ID: 869
+  Src: s12
+  Time: 10.431263412443737
+870:
+  Category: 0
+  Dst: s15
+  ID: 870
+  Src: s10
+  Time: 10.439498054054997
+871:
+  Category: 1
+  Dst: s11
+  ID: 871
+  Src: s24
+  Time: 10.440351716502134
+872:
+  Category: 1
+  Dst: s12
+  ID: 872
+  Src: s10
+  Time: 10.4472717222404
+873:
+  Category: 1
+  Dst: s14
+  ID: 873
+  Src: s2
+  Time: 10.477095478038311
+874:
+  Category: 0
+  Dst: s17
+  ID: 874
+  Src: s11
+  Time: 10.48220990879729
+875:
+  Category: 0
+  Dst: s14
+  ID: 875
+  Src: s10
+  Time: 10.489986158954476
+876:
+  Category: 0
+  Dst: s8
+  ID: 876
+  Src: s9
+  Time: 10.494629425148563
+877:
+  Category: 1
+  Dst: s23
+  ID: 877
+  Src: s22
+  Time: 10.50136694059064
+878:
+  Category: 0
+  Dst: s19
+  ID: 878
+  Src: s10
+  Time: 10.51601371540393
+879:
+  Category: 0
+  Dst: s0
+  ID: 879
+  Src: s22
+  Time: 10.516026752253527
+880:
+  Category: 0
+  Dst: s11
+  ID: 880
+  Src: s1
+  Time: 10.518431976294513
+881:
+  Category: 0
+  Dst: s15
+  ID: 881
+  Src: s5
+  Time: 10.540174985423667
+882:
+  Category: 1
+  Dst: s11
+  ID: 882
+  Src: s8
+  Time: 10.555206023177623
+883:
+  Category: 0
+  Dst: s4
+  ID: 883
+  Src: s9
+  Time: 10.55755175800777
+884:
+  Category: 0
+  Dst: s24
+  ID: 884
+  Src: s22
+  Time: 10.561544754223855
+885:
+  Category: 0
+  Dst: s10
+  ID: 885
+  Src: s4
+  Time: 10.562290463011728
+886:
+  Category: 0
+  Dst: s17
+  ID: 886
+  Src: s9
+  Time: 10.563208575432078
+887:
+  Category: 0
+  Dst: s0
+  ID: 887
+  Src: s10
+  Time: 10.564296058277936
+888:
+  Category: 0
+  Dst: s15
+  ID: 888
+  Src: s18
+  Time: 10.58200457602746
+889:
+  Category: 0
+  Dst: s8
+  ID: 889
+  Src: s1
+  Time: 10.586890175046204
+890:
+  Category: 0
+  Dst: s0
+  ID: 890
+  Src: s18
+  Time: 10.602387431357617
+891:
+  Category: 0
+  Dst: s21
+  ID: 891
+  Src: s24
+  Time: 10.606017797614788
+892:
+  Category: 1
+  Dst: s15
+  ID: 892
+  Src: s7
+  Time: 10.608883733733487
+893:
+  Category: 0
+  Dst: s6
+  ID: 893
+  Src: s14
+  Time: 10.611790589970427
+894:
+  Category: 0
+  Dst: s3
+  ID: 894
+  Src: s5
+  Time: 10.61381765613993
+895:
+  Category: 0
+  Dst: s22
+  ID: 895
+  Src: s12
+  Time: 10.629534316390465
+896:
+  Category: 0
+  Dst: s0
+  ID: 896
+  Src: s22
+  Time: 10.639604273416884
+897:
+  Category: 0
+  Dst: s10
+  ID: 897
+  Src: s1
+  Time: 10.641857434506077
+898:
+  Category: 0
+  Dst: s5
+  ID: 898
+  Src: s2
+  Time: 10.64663649471635
+899:
+  Category: 0
+  Dst: s23
+  ID: 899
+  Src: s22
+  Time: 10.665468025488476
+900:
+  Category: 0
+  Dst: s0
+  ID: 900
+  Src: s22
+  Time: 10.685878422786944
+901:
+  Category: 0
+  Dst: s3
+  ID: 901
+  Src: s14
+  Time: 10.69520295232952
+902:
+  Category: 1
+  Dst: s19
+  ID: 902
+  Src: s22
+  Time: 10.711098731895143
+903:
+  Category: 0
+  Dst: s9
+  ID: 903
+  Src: s19
+  Time: 10.717581692641788
+904:
+  Category: 1
+  Dst: s9
+  ID: 904
+  Src: s14
+  Time: 10.74363111856788
+905:
+  Category: 1
+  Dst: s24
+  ID: 905
+  Src: s18
+  Time: 10.760379453285008
+906:
+  Category: 0
+  Dst: s11
+  ID: 906
+  Src: s10
+  Time: 10.77012901785972
+907:
+  Category: 1
+  Dst: s11
+  ID: 907
+  Src: s20
+  Time: 10.793879135434612
+908:
+  Category: 1
+  Dst: s3
+  ID: 908
+  Src: s10
+  Time: 10.800900829239103
+909:
+  Category: 1
+  Dst: s6
+  ID: 909
+  Src: s10
+  Time: 10.806459012989736
+910:
+  Category: 0
+  Dst: s5
+  ID: 910
+  Src: s4
+  Time: 10.856785920609143
+911:
+  Category: 1
+  Dst: s10
+  ID: 911
+  Src: s4
+  Time: 10.884310410138706
+912:
+  Category: 0
+  Dst: s8
+  ID: 912
+  Src: s1
+  Time: 10.887832816904897
+913:
+  Category: 0
+  Dst: s5
+  ID: 913
+  Src: s14
+  Time: 10.89286115130333
+914:
+  Category: 0
+  Dst: s8
+  ID: 914
+  Src: s24
+  Time: 10.899678904151797
+915:
+  Category: 0
+  Dst: s15
+  ID: 915
+  Src: s9
+  Time: 10.901945273690501
+916:
+  Category: 0
+  Dst: s19
+  ID: 916
+  Src: s9
+  Time: 10.906001471167485
+917:
+  Category: 1
+  Dst: s2
+  ID: 917
+  Src: s10
+  Time: 10.941726427185237
+918:
+  Category: 0
+  Dst: s11
+  ID: 918
+  Src: s10
+  Time: 10.94893493868264
+919:
+  Category: 0
+  Dst: s11
+  ID: 919
+  Src: s3
+  Time: 10.957965958170131
+920:
+  Category: 0
+  Dst: s10
+  ID: 920
+  Src: s18
+  Time: 10.95980912067087
+921:
+  Category: 1
+  Dst: s22
+  ID: 921
+  Src: s4
+  Time: 10.964942978963041
+922:
+  Category: 0
+  Dst: s12
+  ID: 922
+  Src: s20
+  Time: 10.992211490925701
+923:
+  Category: 1
+  Dst: s6
+  ID: 923
+  Src: s16
+  Time: 11.00131787936996
+924:
+  Category: 0
+  Dst: s18
+  ID: 924
+  Src: s24
+  Time: 11.026963920951477
+925:
+  Category: 0
+  Dst: s12
+  ID: 925
+  Src: s2
+  Time: 11.029821631144864
+926:
+  Category: 0
+  Dst: s22
+  ID: 926
+  Src: s17
+  Time: 11.049941516649314
+927:
+  Category: 1
+  Dst: s4
+  ID: 927
+  Src: s24
+  Time: 11.056703047340761
+928:
+  Category: 0
+  Dst: s8
+  ID: 928
+  Src: s5
+  Time: 11.066583348387036
+929:
+  Category: 0
+  Dst: s10
+  ID: 929
+  Src: s18
+  Time: 11.083437619555836
+930:
+  Category: 1
+  Dst: s6
+  ID: 930
+  Src: s2
+  Time: 11.093042827205613
+931:
+  Category: 0
+  Dst: s24
+  ID: 931
+  Src: s9
+  Time: 11.148775647800148
+932:
+  Category: 0
+  Dst: s1
+  ID: 932
+  Src: s24
+  Time: 11.168615189284601
+933:
+  Category: 0
+  Dst: s5
+  ID: 933
+  Src: s4
+  Time: 11.192579318750573
+934:
+  Category: 0
+  Dst: s4
+  ID: 934
+  Src: s10
+  Time: 11.19636210175376
+935:
+  Category: 0
+  Dst: s10
+  ID: 935
+  Src: s14
+  Time: 11.198645551808179
+936:
+  Category: 0
+  Dst: s20
+  ID: 936
+  Src: s2
+  Time: 11.205278188026599
+937:
+  Category: 0
+  Dst: s8
+  ID: 937
+  Src: s20
+  Time: 11.205283462702381
+938:
+  Category: 0
+  Dst: s4
+  ID: 938
+  Src: s15
+  Time: 11.218767239830232
+939:
+  Category: 1
+  Dst: s14
+  ID: 939
+  Src: s0
+  Time: 11.221360210074248
+940:
+  Category: 0
+  Dst: s24
+  ID: 940
+  Src: s2
+  Time: 11.264489717701595
+941:
+  Category: 1
+  Dst: s3
+  ID: 941
+  Src: s12
+  Time: 11.282625249965797
+942:
+  Category: 0
+  Dst: s12
+  ID: 942
+  Src: s2
+  Time: 11.284966470944923
+943:
+  Category: 0
+  Dst: s22
+  ID: 943
+  Src: s1
+  Time: 11.333999119727281
+944:
+  Category: 0
+  Dst: s24
+  ID: 944
+  Src: s9
+  Time: 11.334306126796662
+945:
+  Category: 0
+  Dst: s24
+  ID: 945
+  Src: s1
+  Time: 11.367953084655152
+946:
+  Category: 0
+  Dst: s1
+  ID: 946
+  Src: s15
+  Time: 11.39540152374863
+947:
+  Category: 0
+  Dst: s1
+  ID: 947
+  Src: s5
+  Time: 11.419053906646155
+948:
+  Category: 0
+  Dst: s17
+  ID: 948
+  Src: s6
+  Time: 11.42020497454207
+949:
+  Category: 0
+  Dst: s11
+  ID: 949
+  Src: s9
+  Time: 11.434132939157276
+950:
+  Category: 0
+  Dst: s3
+  ID: 950
+  Src: s12
+  Time: 11.440168560985128
+951:
+  Category: 0
+  Dst: s6
+  ID: 951
+  Src: s15
+  Time: 11.450481237315156
+952:
+  Category: 0
+  Dst: s23
+  ID: 952
+  Src: s16
+  Time: 11.453540451263013
+953:
+  Category: 1
+  Dst: s13
+  ID: 953
+  Src: s0
+  Time: 11.463288215250223
+954:
+  Category: 0
+  Dst: s2
+  ID: 954
+  Src: s22
+  Time: 11.469083939926827
+955:
+  Category: 1
+  Dst: s17
+  ID: 955
+  Src: s0
+  Time: 11.47627715262847
+956:
+  Category: 0
+  Dst: s1
+  ID: 956
+  Src: s18
+  Time: 11.47847156963996
+957:
+  Category: 1
+  Dst: s0
+  ID: 957
+  Src: s20
+  Time: 11.494223812090702
+958:
+  Category: 0
+  Dst: s19
+  ID: 958
+  Src: s17
+  Time: 11.497958547352525
+959:
+  Category: 0
+  Dst: s0
+  ID: 959
+  Src: s6
+  Time: 11.507649836225896
+960:
+  Category: 1
+  Dst: s22
+  ID: 960
+  Src: s1
+  Time: 11.522216439476736
+961:
+  Category: 0
+  Dst: s19
+  ID: 961
+  Src: s9
+  Time: 11.527899296852015
+962:
+  Category: 0
+  Dst: s8
+  ID: 962
+  Src: s17
+  Time: 11.529222596289863
+963:
+  Category: 0
+  Dst: s4
+  ID: 963
+  Src: s5
+  Time: 11.529255451841085
+964:
+  Category: 0
+  Dst: s10
+  ID: 964
+  Src: s20
+  Time: 11.533031883558689
+965:
+  Category: 1
+  Dst: s4
+  ID: 965
+  Src: s16
+  Time: 11.544479184746216
+966:
+  Category: 0
+  Dst: s17
+  ID: 966
+  Src: s10
+  Time: 11.561342201056194
+967:
+  Category: 1
+  Dst: s12
+  ID: 967
+  Src: s15
+  Time: 11.58985471330194
+968:
+  Category: 0
+  Dst: s1
+  ID: 968
+  Src: s3
+  Time: 11.651540959525368
+969:
+  Category: 0
+  Dst: s23
+  ID: 969
+  Src: s9
+  Time: 11.658023913824056
+970:
+  Category: 1
+  Dst: s0
+  ID: 970
+  Src: s12
+  Time: 11.658155978655001
+971:
+  Category: 0
+  Dst: s1
+  ID: 971
+  Src: s15
+  Time: 11.661478284678184
+972:
+  Category: 0
+  Dst: s3
+  ID: 972
+  Src: s1
+  Time: 11.661997568880135
+973:
+  Category: 0
+  Dst: s24
+  ID: 973
+  Src: s9
+  Time: 11.666611430575877
+974:
+  Category: 1
+  Dst: s18
+  ID: 974
+  Src: s16
+  Time: 11.678924655230725
+975:
+  Category: 0
+  Dst: s14
+  ID: 975
+  Src: s18
+  Time: 11.686448441791052
+976:
+  Category: 1
+  Dst: s17
+  ID: 976
+  Src: s22
+  Time: 11.701476528333837
+977:
+  Category: 1
+  Dst: s13
+  ID: 977
+  Src: s10
+  Time: 11.705440549709781
+978:
+  Category: 0
+  Dst: s3
+  ID: 978
+  Src: s0
+  Time: 11.710182105520145
+979:
+  Category: 0
+  Dst: s9
+  ID: 979
+  Src: s8
+  Time: 11.729101460976672
+980:
+  Category: 1
+  Dst: s0
+  ID: 980
+  Src: s7
+  Time: 11.739460692969281
+981:
+  Category: 1
+  Dst: s11
+  ID: 981
+  Src: s15
+  Time: 11.745064236920111
+982:
+  Category: 0
+  Dst: s2
+  ID: 982
+  Src: s6
+  Time: 11.755598282607266
+983:
+  Category: 0
+  Dst: s18
+  ID: 983
+  Src: s15
+  Time: 11.769583448000036
+984:
+  Category: 1
+  Dst: s13
+  ID: 984
+  Src: s4
+  Time: 11.775692158372248
+985:
+  Category: 0
+  Dst: s3
+  ID: 985
+  Src: s18
+  Time: 11.784484745358453
+986:
+  Category: 0
+  Dst: s14
+  ID: 986
+  Src: s22
+  Time: 11.7876843039751
+987:
+  Category: 0
+  Dst: s15
+  ID: 987
+  Src: s5
+  Time: 11.796879582077548
+988:
+  Category: 0
+  Dst: s4
+  ID: 988
+  Src: s6
+  Time: 11.800383292876171
+989:
+  Category: 0
+  Dst: s5
+  ID: 989
+  Src: s6
+  Time: 11.81509230978834
+990:
+  Category: 0
+  Dst: s8
+  ID: 990
+  Src: s20
+  Time: 11.829701651159777
+991:
+  Category: 0
+  Dst: s8
+  ID: 991
+  Src: s16
+  Time: 11.846363258271095
+992:
+  Category: 0
+  Dst: s1
+  ID: 992
+  Src: s10
+  Time: 11.865402743303541
+993:
+  Category: 0
+  Dst: s8
+  ID: 993
+  Src: s21
+  Time: 11.885415439235414
+994:
+  Category: 0
+  Dst: s13
+  ID: 994
+  Src: s15
+  Time: 11.908201721816543
+995:
+  Category: 0
+  Dst: s18
+  ID: 995
+  Src: s4
+  Time: 11.933586392787642
+996:
+  Category: 0
+  Dst: s23
+  ID: 996
+  Src: s20
+  Time: 11.94944664403242
+997:
+  Category: 0
+  Dst: s11
+  ID: 997
+  Src: s8
+  Time: 11.95451436848331
+998:
+  Category: 0
+  Dst: s24
+  ID: 998
+  Src: s14
+  Time: 11.968123580103104
+999:
+  Category: 0
+  Dst: s22
+  ID: 999
+  Src: s1
+  Time: 11.983749299946606

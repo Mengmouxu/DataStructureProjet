@@ -5,10 +5,9 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 import utils.Get_config as cfg
 
 class center:
-    def __init__(self, id):
-        self.ind, self.ID, self.Pos, self.Throughput, self.Delay, self.Cost = self.load_data_from_config(id)
-    def load_data_from_config(self, id):
-        centers = cfg.get_centers()
+    def __init__(self, id, centers = cfg.get_centers()):
+        self.ind, self.ID, self.Pos, self.Throughput, self.Delay, self.Cost = self.load_data_from_config(id, centers)
+    def load_data_from_config(self, id, centers):
         if type(id) == int and id in centers:
             center_data = centers[id]
             return id, center_data["ID"], center_data["Pos"], center_data["Throughput"], center_data["Delay"], center_data["Cost"]
@@ -30,20 +29,18 @@ class center:
         print( )
 
 def All_Centers():
+    centers = cfg.get_centers()
     Center = []
     for i in range(cfg.len_centers()):
-        c = center(i)
+        c = center(i, centers)
         Center.append(c)
     return Center
 
-
-
 class station:
-    def __init__(self, id):
-        self.ind, self.ID, self.Pos, self.Throughput, self.Delay, self.Cost = self.load_data_from_config(id)
+    def __init__(self, id, stations = cfg.get_stations()):
+        self.ind, self.ID, self.Pos, self.Throughput, self.Delay, self.Cost = self.load_data_from_config(id, stations)
         self.ind += cfg.len_centers()
-    def load_data_from_config(self, id):
-        stations = cfg.get_stations()
+    def load_data_from_config(self, id, stations):
         if type(id) == int and id in stations:
             station_data = stations[id]
             return id, station_data["ID"], station_data["Pos"], station_data["Throughput"], station_data["Delay"], station_data["Cost"]
@@ -64,9 +61,10 @@ class station:
         print( )
 
 def All_Stations():
+    stations = cfg.get_stations()
     Station = []
     for i in range(cfg.len_stations()):
-        s = station(i)
+        s = station(i, stations)
         Station.append(s)
     return Station
 
@@ -100,36 +98,34 @@ def Routes_Graph():
     for ind, route in route_data.items():
         s, d = find_route(route["Src"], route["Dst"])
         CostGraph[s][d] = route["Cost"]
-        CostGraph[d][s] = route["Cost"]
         TimeGraph[s][d] = route["Time"]
-        TimeGraph[d][s] = route["Time"]
     return CostGraph, TimeGraph
 
 def All_Centers_Stations():
     return All_Centers() + All_Stations()
 
 class package:
-    def __init__(self, id):
+    def __init__(self, id, packages = cfg.get_packages()):
         self.ind = id
-        self.ID, self.TimeCreated, self.Src, self.Dst, self.Category = self.load_data_from_config(id)
-    def load_data_from_config(self, id):
-        packages = cfg.get_packages()
+        self.ID, self.Time, self.Src, self.Dst, self.Category = self.load_data_from_config(id, packages)
+    def load_data_from_config(self, id, packages):
         if type(id) == int and id in packages:
             package_data = packages[id]
-            return package_data["ID"], package_data["TimeCreated"], package_data["Src"], package_data["Dst"], package_data["Category"]
+            return package_data["ID"], package_data["Time"], package_data["Src"], package_data["Dst"], package_data["Category"]
     def info(self):
         print(f"Index of this Package is {self.ind}")
         print(f"> Package ID: {self.ID}")
-        print(f"> Package Time Created: {self.TimeCreated}")
+        print(f"> Package Time Created: {self.Time}")
         print(f"> Package Source: {self.Src}")
         print(f"> Package Destination: {self.Dst}")
         print(f"> Package Category: {self.Category}")
         print( )
 
 def all_Packages():
+    packages = cfg.get_packages()
     Packages = []
     for i in range(cfg.len_packages()):
-        p = package(i)
+        p = package(i, packages)
         Packages.append(p)
     return Packages
 
@@ -137,5 +133,5 @@ if __name__ == "__main__":
     print(Routes_Graph())
     for i in range(len(All_Centers_Stations())):
         All_Centers_Stations()[i].info()
-    for i in range(cfg.len_packages()):
-        all_Packages()[i].info()
+    for i in range(10):
+        package(i).info()

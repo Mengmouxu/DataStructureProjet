@@ -1,16 +1,200 @@
 0:
-  Cost: 89.0
-  Delay: 27
-  ID: s3
+  Cost: 0.8
+  Delay: 1
+  ID: s0
   Pos:
-  - 23
-  - 56
-  Throughput: 36
+  - 97.0
+  - 71.0
+  Throughput: 20
 1:
-  Cost: 30.0
-  Delay: 34
+  Cost: 0.8
+  Delay: 1
+  ID: s1
+  Pos:
+  - 47.0
+  - 23.0
+  Throughput: 20
+2:
+  Cost: 0.9
+  Delay: 1
   ID: s2
   Pos:
-  - 90
-  - 67
-  Throughput: 5
+  - 30.0
+  - 18.0
+  Throughput: 25
+3:
+  Cost: 0.9
+  Delay: 1
+  ID: s3
+  Pos:
+  - 29.0
+  - 14.0
+  Throughput: 25
+4:
+  Cost: 0.8
+  Delay: 1
+  ID: s4
+  Pos:
+  - 95.0
+  - 95.0
+  Throughput: 20
+5:
+  Cost: 0.5
+  Delay: 2
+  ID: s5
+  Pos:
+  - 27.0
+  - 28.0
+  Throughput: 10
+6:
+  Cost: 0.5
+  Delay: 2
+  ID: s6
+  Pos:
+  - 69.0
+  - 84.0
+  Throughput: 10
+7:
+  Cost: 0.8
+  Delay: 1
+  ID: s7
+  Pos:
+  - 7.0
+  - 71.0
+  Throughput: 20
+8:
+  Cost: 0.8
+  Delay: 1
+  ID: s8
+  Pos:
+  - 88.0
+  - 91.0
+  Throughput: 20
+9:
+  Cost: 0.8
+  Delay: 1
+  ID: s9
+  Pos:
+  - 5.0
+  - 12.0
+  Throughput: 20
+10:
+  Cost: 0.8
+  Delay: 1
+  ID: s10
+  Pos:
+  - 30.0
+  - 24.0
+  Throughput: 20
+11:
+  Cost: 0.8
+  Delay: 1
+  ID: s11
+  Pos:
+  - 87.0
+  - 92.0
+  Throughput: 20
+12:
+  Cost: 0.6
+  Delay: 2
+  ID: s12
+  Pos:
+  - 28.0
+  - 95.0
+  Throughput: 15
+13:
+  Cost: 0.8
+  Delay: 1
+  ID: s13
+  Pos:
+  - 100.0
+  - 40.0
+  Throughput: 20
+14:
+  Cost: 0.9
+  Delay: 1
+  ID: s14
+  Pos:
+  - 99.0
+  - 9.0
+  Throughput: 25
+15:
+  Cost: 0.5
+  Delay: 2
+  ID: s15
+  Pos:
+  - 44.0
+  - 98.0
+  Throughput: 10
+16:
+  Cost: 0.8
+  Delay: 1
+  ID: s16
+  Pos:
+  - 63.0
+  - 61.0
+  Throughput: 20
+17:
+  Cost: 0.9
+  Delay: 1
+  ID: s17
+  Pos:
+  - 56.0
+  - 44.0
+  Throughput: 25
+18:
+  Cost: 0.8
+  Delay: 1
+  ID: s18
+  Pos:
+  - 18.0
+  - 49.0
+  Throughput: 20
+19:
+  Cost: 0.6
+  Delay: 2
+  ID: s19
+  Pos:
+  - 58.0
+  - 41.0
+  Throughput: 15
+20:
+  Cost: 0.5
+  Delay: 2
+  ID: s20
+  Pos:
+  - 22.0
+  - 51.0
+  Throughput: 10
+21:
+  Cost: 0.9
+  Delay: 1
+  ID: s21
+  Pos:
+  - 21.0
+  - 28.0
+  Throughput: 25
+22:
+  Cost: 0.5
+  Delay: 2
+  ID: s22
+  Pos:
+  - 44.0
+  - 48.0
+  Throughput: 10
+23:
+  Cost: 0.8
+  Delay: 1
+  ID: s23
+  Pos:
+  - 48.0
+  - 15.0
+  Throughput: 20
+24:
+  Cost: 0.6
+  Delay: 2
+  ID: s24
+  Pos:
+  - 54.0
+  - 93.0
+  Throughput: 15
