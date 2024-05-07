@@ -1,5 +1,5 @@
 """
-File: Load_config_auto.py
+File: Config_data.py
 Author: Yanxu Meng
 Date: 2024/5/6
 Description: This file contains classes accessing to the informations of these data types.
@@ -10,10 +10,12 @@ import sys
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 import utils.Get_config as cfg
+from data.PriorityQueue import PriorityQueue
 
 class center:
     def __init__(self, id, centers = cfg.get_centers()):
         self.ind, self.ID, self.Pos, self.Throughput, self.Delay, self.Cost = self.load_data_from_config(id, centers)
+        self.package_queue = PriorityQueue()
     def load_data_from_config(self, id, centers):
         if type(id) == int and id in centers:
             center_data = centers[id]
@@ -33,6 +35,7 @@ class center:
         print(f"> Center Position: {self.Pos}")
         print(f"> Center Throughput: {self.Throughput}")
         print(f"> Center Delay: {self.Delay}")
+        print(f"> Center Packages number: {self.package_queue.size()}")
         print( )
 
 def All_Centers():
@@ -47,6 +50,7 @@ class station:
     def __init__(self, id, stations = cfg.get_stations()):
         self.ind, self.ID, self.Pos, self.Throughput, self.Delay, self.Cost = self.load_data_from_config(id, stations)
         self.ind += cfg.len_centers()
+        self.package_queue = PriorityQueue()
     def load_data_from_config(self, id, stations):
         if type(id) == int and id in stations:
             station_data = stations[id]
@@ -65,6 +69,7 @@ class station:
         print(f"> Station Position: {self.Pos}")
         print(f"> Station Throughput: {self.Throughput}")
         print(f"> Station Delay: {self.Delay}")
+        print(f"> Station Packages number: {self.package_queue.size()}")
         print( )
 
 def All_Stations():

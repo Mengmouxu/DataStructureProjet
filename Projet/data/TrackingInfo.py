@@ -1,3 +1,10 @@
+"""
+File: TrackingInfo.py
+Author: Yanxu Meng
+Date: 2024/5/7
+Description: This file contains classes and fuunctions for tracking the packages.
+"""
+
 from ConfigData import package
 from utils.Get_config import get_packages,write_yaml, clear_yaml, read_yaml_all
 

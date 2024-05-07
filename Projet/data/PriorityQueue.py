@@ -5,7 +5,7 @@ Date: 2024/5/5
 Description: This file contains the implementation of a Priority Queue data structure.
 """
 
-from ConfigData import All_Packages
+# from ConfigData import All_Packages
 
 class PriorityQueue:
     """
@@ -43,19 +43,24 @@ class PriorityQueue:
                 self.queue[j + 1] = self.queue[j]
                 j -= 1
             self.queue[j + 1] = key
+    def size(self):
+        return len(self.queue)
 
-if __name__ == "__main__":
-    P = PriorityQueue()
-    pk = All_Packages()
-    P.enqueue(pk[800])
-    P.enqueue(pk[200])
-    P.enqueue(pk[300])
-    P.enqueue(pk[50])
-    P.info()
-    P.pop().info()
-    P.pop().info()
-    P.pop().info()
-    P.pop().info()
-    print(P.queue)
-    for i in range(1000):
-        P.enqueue(pk[i])
+
+# due to the circular import, this test will not be accessed.
+
+# if __name__ == "__main__":
+#     P = PriorityQueue()
+#     pk = All_Packages()
+#     P.enqueue(pk[800])
+#     P.enqueue(pk[200])
+#     P.enqueue(pk[300])
+#     P.enqueue(pk[50])
+#     P.info()
+#     P.pop().info()
+#     P.pop().info()
+#     P.pop().info()
+#     P.pop().info()
+#     print(P.queue)
+#     for i in range(1000):
+#         P.enqueue(pk[i])

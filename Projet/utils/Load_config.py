@@ -1,5 +1,5 @@
 """
-File: Load_config_auto.py
+File: Load_config.py
 Author: Yanxu Meng
 Date: 2024/5/5
 Description: This file contains utility functions for totally not automatically :( generating and loading

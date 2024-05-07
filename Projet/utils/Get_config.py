@@ -1,5 +1,5 @@
 """
-File: Load_config_auto.py
+File: Get_config.py
 Author: Yanxu Meng
 Date: 2024/5/5
 Description: This file contains utility functions for reading the datas in configuration files.
