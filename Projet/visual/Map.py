@@ -1,3 +1,10 @@
+"""
+File: Load_config_auto.py
+Author: Yanxu Meng
+Date: 2024/5/6
+Description: This file contains utility functions for visualization of the Map.
+"""
+
 import sys
 import os
 import matplotlib.pyplot as plt

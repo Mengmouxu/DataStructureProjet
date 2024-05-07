@@ -1,3 +1,7 @@
+"""
+A File That Make Me So Sad For The Reason That I Found This File
+The Day After I Wrote Load_COnfig.py :((((
+"""
 
 import random
 import numpy as np
@@ -10,7 +14,6 @@ parameters = {
     "center_num": 5,
     "packet_num": 10,
 }
-
 
 def data_gen():
     # Generate Stations

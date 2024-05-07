@@ -1,10 +1,18 @@
-import yaml
-import sys
+"""
+File: Load_config_auto.py
+Author: Yanxu Meng
+Date: 2024/5/6
+Description: This file contains utility functions for automatically generating and loading
+             configuration files for the system simulation.
+"""
+
 import random
 import numpy as np
 import matplotlib.pyplot as plt
 import uuid
 from sklearn.cluster import KMeans
+import yaml
+import sys
 import os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
@@ -228,14 +236,12 @@ def append_packages_config(packet):
     for i in range(len(packet)):
         packet_data[i] = {
             "ID": i,
-            "Time":float(packet[i][0]),
+            "TimeC":float(packet[i][0]),
             "Src":str(packet[i][1]),
             "Dst":str(packet[i][2]),
             "Category":int(packet[i][3]),
         }
     write_yaml(packet_data, "packages")
-
-
 
 if __name__ == '__main__':
     data = data_gen()

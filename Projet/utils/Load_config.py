@@ -1,3 +1,11 @@
+"""
+File: Load_config_auto.py
+Author: Yanxu Meng
+Date: 2024/5/5
+Description: This file contains utility functions for totally not automatically :( generating and loading
+             configuration files for the system simulation. I've miss written this file :(((
+"""
+
 import yaml
 import os
 import sys

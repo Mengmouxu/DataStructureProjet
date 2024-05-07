@@ -1,40 +1,40 @@
 0:
   Cost: 0.5
-  Delay: 1
+  Delay: 2
   ID: c0
   Pos:
-  - 85
-  - 22
-  Throughput: 125
+  - 19
+  - 30
+  Throughput: 100
 1:
   Cost: 0.5
   Delay: 1
   ID: c1
   Pos:
-  - 35
-  - 30
+  - 81
+  - 63
   Throughput: 125
 2:
   Cost: 0.5
-  Delay: 2
+  Delay: 1
   ID: c2
   Pos:
-  - 4
-  - 45
-  Throughput: 100
+  - 14
+  - 80
+  Throughput: 125
 3:
   Cost: 0.5
-  Delay: 1
+  Delay: 2
   ID: c3
   Pos:
-  - 35
-  - 87
-  Throughput: 125
+  - 62
+  - 11
+  Throughput: 150
 4:
   Cost: 0.5
-  Delay: 1
+  Delay: 2
   ID: c4
   Pos:
-  - 68
-  - 60
-  Throughput: 125
+  - 49
+  - 59
+  Throughput: 100

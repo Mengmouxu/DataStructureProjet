@@ -1,3 +1,10 @@
+"""
+File: Load_config_auto.py
+Author: Yanxu Meng
+Date: 2024/5/6
+Description: This file contains classes accessing to the informations of these data types.
+"""
+
 import os
 import sys
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
@@ -107,15 +114,15 @@ def All_Centers_Stations():
 class package:
     def __init__(self, id, packages = cfg.get_packages()):
         self.ind = id
-        self.ID, self.Time, self.Src, self.Dst, self.Category = self.load_data_from_config(id, packages)
+        self.ID, self.TimeC, self.Src, self.Dst, self.Category = self.load_data_from_config(id, packages)
     def load_data_from_config(self, id, packages):
         if type(id) == int and id in packages:
             package_data = packages[id]
-            return package_data["ID"], package_data["Time"], package_data["Src"], package_data["Dst"], package_data["Category"]
+            return package_data["ID"], package_data["TimeC"], package_data["Src"], package_data["Dst"], package_data["Category"]
     def info(self):
         print(f"Index of this Package is {self.ind}")
         print(f"> Package ID: {self.ID}")
-        print(f"> Package Time Created: {self.Time}")
+        print(f"> Package Time Created: {self.TimeC}")
         print(f"> Package Source: {self.Src}")
         print(f"> Package Destination: {self.Dst}")
         print(f"> Package Category: {self.Category}")
@@ -131,7 +138,9 @@ def All_Packages():
 
 if __name__ == "__main__":
     print(Routes_Graph())
-    for i in range(len(All_Centers_Stations())):
-        All_Centers_Stations()[i].info()
-    for i in range(10):
-        package(i).info()
+    cs = All_Centers_Stations()
+    pk = All_Packages()
+    for i in range(len(cs)):
+        cs[i].info()
+    for i in range(1000):
+        pk[i].info()
