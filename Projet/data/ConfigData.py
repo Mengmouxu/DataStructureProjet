@@ -117,27 +117,33 @@ def All_Centers_Stations():
     return All_Centers() + All_Stations()
 
 class package:
-    def __init__(self, id, packages = cfg.get_packages()):
+    def __init__(self, id, cs_name, packages = cfg.get_packages()):
         self.ind = id
-        self.ID, self.TimeC, self.Src, self.Dst, self.Category = self.load_data_from_config(id, packages)
-    def load_data_from_config(self, id, packages):
+        self.ID, self.TimeC, self.Src, self.Dst, self.Category, self.Src_n, self.Dst_n = self.load_data_from_config(id, cs_name, packages)
+        self.t = 0
+        self.m = 0
+        # Init the time cost and money cost of the package
+    def load_data_from_config(self, id,cs_name, packages):
         if type(id) == int and id in packages:
             package_data = packages[id]
-            return package_data["ID"], package_data["TimeC"], package_data["Src"], package_data["Dst"], package_data["Category"]
+            return package_data["ID"], package_data["TimeC"], cs_name[package_data["Src"]], cs_name[package_data["Dst"]], package_data["Category"], package_data["Src"], package_data["Dst"]
     def info(self):
         print(f"Index of this Package is {self.ind}")
         print(f"> Package ID: {self.ID}")
         print(f"> Package Time Created: {self.TimeC}")
-        print(f"> Package Source: {self.Src}")
-        print(f"> Package Destination: {self.Dst}")
+        print(f"> Package Source: {self.Src_n}")
+        print(f"> Package Destination: {self.Dst_n}")
         print(f"> Package Category: {self.Category}")
         print( )
 
 def All_Packages():
     packages = cfg.get_packages()
+    CS = All_Centers_Stations()
+    CS_name = {CS[i].ID : i for i in range(len(CS))}
+    print(CS_name)
     Packages = []
     for i in range(cfg.len_packages()):
-        p = package(i, packages)
+        p = package(i, CS_name, packages)
         Packages.append(p)
     return Packages
 

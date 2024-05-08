@@ -61,6 +61,7 @@ def write_yaml(data, yaml_path):
 def clear_yaml(yaml_path):
     with open(''.join(["config/", yaml_path, ".yaml"]), encoding="utf-8", mode="w") as f:
         f.truncate()
+        
 
 if __name__ == "__main__":
     print(get_centers())

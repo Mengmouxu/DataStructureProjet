@@ -704,14 +704,10 @@
   ID: 100
   Log:
   - Event: SENT
-    Location:
-    - 12
-    - 2
+    Location: c0
     Time: 10
   - Event: PROCESSING
-    Location:
-    - 12
-    - 2
+    Location: c2
     Time: 12
   Src: s19
   TimeC: 1.0897605690746923

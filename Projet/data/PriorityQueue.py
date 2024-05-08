@@ -14,11 +14,13 @@ class PriorityQueue:
     you could use info() to get the ID of packages in queue
     """
     def __init__(self):
+        self.express_queue = []
+        self.normal_queue = []
         self.queue = []
 
     def enqueue(self, package):
         self.queue.append(package)
-        self.insert_sort_queue()
+        # self.insert_sort_queue()
     
     def pop(self):
         if (len(self.queue) == 0):
@@ -43,6 +45,14 @@ class PriorityQueue:
                 self.queue[j + 1] = self.queue[j]
                 j -= 1
             self.queue[j + 1] = key
+    def queue_wait_time(self):
+        """
+        Calculate the waiting time of the packages in the queue.
+        """
+        wait_time = 0
+        for i in range(len(self.queue)):
+            wait_time += self.queue[i].TimeC
+        return wait_time
     def size(self):
         return len(self.queue)
 
