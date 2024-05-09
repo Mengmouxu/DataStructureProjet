@@ -51,6 +51,8 @@ def All_Centers():
         Center.append(c)
     return Center
 
+
+
 class station:
     def __init__(self, id, stations = cfg.get_stations()):
         self.ind, self.ID, self.Pos, self.Throughput, self.Delay, self.Cost = self.load_data_from_config(id, stations)
@@ -90,6 +92,9 @@ def All_Stations():
         Station.append(s)
     return Station
 
+
+
+
 def find_route(src, dst):
     s,d = 0,0
     if src[0] == "s":
@@ -105,6 +110,9 @@ def find_route(src, dst):
         ct = center(dst)
         d = ct.ind
     return s, d
+
+
+
 
 class route():
     def __init__(self, id, routes = cfg.get_routes()):
@@ -126,13 +134,16 @@ class route():
     def remove_package(self, package):
         self.On_route.remove(package)
 
-def Init_Routes():
+def All_Routes(): # No use right now
     routes = cfg.get_routes()
     Route = []
     for i in range(cfg.len_routes()):
         r = route(i, routes)
         Route.append(r)
     return Route
+
+
+
 
 def Routes_Graph():
     n_center = cfg.len_centers()
@@ -158,8 +169,9 @@ class package:
     def __init__(self, id, cs_name, packages = cfg.get_packages()):
         self.ind = id
         self.ID, self.TimeC, self.Src, self.Dst, self.Category, self.Src_n, self.Dst_n = self.load_data_from_config(id, cs_name, packages)
-        self.t = 0
-        self.m = 0
+        self.Arrived_time = 0
+        self.Money_cost = 0
+        self.Arrive = False
         # Init the time cost and money cost of the package
     def load_data_from_config(self, id,cs_name, packages):
         if type(id) == int and id in packages:
@@ -172,6 +184,9 @@ class package:
         print(f"> Package Source: {self.Src_n}")
         print(f"> Package Destination: {self.Dst_n}")
         print(f"> Package Category: {self.Category}")
+        print(f"> Package Arrived: {self.Arrive}")
+        print(f"> Package Arrived Time: {self.Arrived_time}")
+        print(f"> Package Money Cost: {self.Money_cost}")
         print( )
 
 def All_Packages():

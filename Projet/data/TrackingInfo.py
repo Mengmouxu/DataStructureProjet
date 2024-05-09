@@ -67,6 +67,7 @@ def Init_packageLog(Name_Ind):
     for i in range(len(packages)):
         pl = packageLog(i, Name_Ind, packages)
         PL.append(pl)
+    print("Init packageLog list successfully!")
     return PL
 
 def Load_packageLog(Log, Ind_Name):

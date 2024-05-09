@@ -9,9 +9,8 @@ import os
 import sys
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-from data.ConfigData import All_Centers_Stations,  All_Packages
-from data.TrackingInfo import Init_packageLog
-from utils.Name_config import Name_Ind, Ind_Name
+from data.ConfigData import All_Centers_Stations
+from utils.Name_config import Name_Ind
 
 def InitCenterStation(Name_Ind):
     init_CS = All_Centers_Stations()
