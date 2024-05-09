@@ -16,6 +16,7 @@ class center:
     def __init__(self, id, centers = cfg.get_centers()):
         self.ind, self.ID, self.Pos, self.Throughput, self.Delay, self.Cost = self.load_data_from_config(id, centers)
         self.package_queue = PriorityQueue()
+        self.buffer = []
     def load_data_from_config(self, id, centers):
         if type(id) == int and id in centers:
             center_data = centers[id]
@@ -37,6 +38,10 @@ class center:
         print(f"> Center Delay: {self.Delay}")
         print(f"> Center Packages number: {self.package_queue.size()}")
         print( )
+    def add_buffer(self, package):
+        self.buffer.append(package)
+    def remove_buffer(self, package):
+        self.buffer.remove(package)
 
 def All_Centers():
     centers = cfg.get_centers()
@@ -51,6 +56,7 @@ class station:
         self.ind, self.ID, self.Pos, self.Throughput, self.Delay, self.Cost = self.load_data_from_config(id, stations)
         self.ind += cfg.len_centers()
         self.package_queue = PriorityQueue()
+        self.buffer = []
     def load_data_from_config(self, id, stations):
         if type(id) == int and id in stations:
             station_data = stations[id]
@@ -71,6 +77,10 @@ class station:
         print(f"> Station Delay: {self.Delay}")
         print(f"> Station Packages number: {self.package_queue.size()}")
         print( )
+    def add_buffer(self, package):
+        self.buffer.append(package)
+    def remove_buffer(self, package):
+        self.buffer.remove(package)
 
 def All_Stations():
     stations = cfg.get_stations()
@@ -95,6 +105,34 @@ def find_route(src, dst):
         ct = center(dst)
         d = ct.ind
     return s, d
+
+class route():
+    def __init__(self, id, routes = cfg.get_routes()):
+        self.ind, self.Src, self.Dst, self.Cost, self.Time = self.load_data_from_config(id, routes)
+        self.On_route = []
+    def load_data_from_config(self, id, routes):
+        if type(id) == int and id in routes:
+            route_data = routes[id]
+            return id, route_data["Src"], route_data["Dst"], route_data["Cost"], route_data["Time"]
+    def info(self):
+        print(f"Index of this Route is {self.ind}")
+        print(f"> Route Source: {self.Src}")
+        print(f"> Route Destination: {self.Dst}")
+        print(f"> Route Cost: {self.Cost}")
+        print(f"> Route Time: {self.Time}")
+        print( )
+    def add_package(self, package):
+        self.On_route.append(package)
+    def remove_package(self, package):
+        self.On_route.remove(package)
+
+def Init_Routes():
+    routes = cfg.get_routes()
+    Route = []
+    for i in range(cfg.len_routes()):
+        r = route(i, routes)
+        Route.append(r)
+    return Route
 
 def Routes_Graph():
     n_center = cfg.len_centers()
@@ -155,3 +193,6 @@ if __name__ == "__main__":
         cs[i].info()
     for i in range(1000):
         pk[i].info()
+    rt = Init_Routes()
+    for i in range(len(rt)):
+        rt[i].info()

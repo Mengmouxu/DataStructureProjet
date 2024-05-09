@@ -176,12 +176,12 @@ def data_gen():
         category = np.random.choice(2, p=speed_prob)
         # Create time of the package, during 12 time ticks(hours). Of course you can change it.
         create_time = np.random.random() * 12
-        packets.append((create_time, f"s{src}", f"s{dst}", category))
+        packets.append((uuid.uuid4(),create_time, f"s{src}", f"s{dst}", category))
     # Sort packets by create time
     packets.sort(key=lambda x: x[0])
     # Output Packets
     for packet in packets:
-        print(uuid.uuid4(), packet)
+        print(packet)
 
     return {
         "station_pos": station_pos,
@@ -235,11 +235,11 @@ def append_packages_config(packet):
     packet_data = {}
     for i in range(len(packet)):
         packet_data[i] = {
-            "ID": i,
-            "TimeC":float(packet[i][0]),
-            "Src":str(packet[i][1]),
-            "Dst":str(packet[i][2]),
-            "Category":int(packet[i][3]),
+            "ID": str(packet[i][0]),
+            "TimeC":float(packet[i][1]),
+            "Src":str(packet[i][2]),
+            "Dst":str(packet[i][3]),
+            "Category":int(packet[i][4]),
         }
     write_yaml(packet_data, "packages")
 
