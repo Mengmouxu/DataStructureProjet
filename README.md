@@ -11,5 +11,5 @@ scikit_learn==1.4.2
   All these packages were just uesd for the read, write, generate the configurations and visualize the Package process. ( Probably ``pygame`` in the future )  
   
 **Current Simulation File:** ``files in sim``  
-**Current Static Map Visualization File:** ``python visual/Map.py``
+**Current Static Map Visualization File:** ``python visual/Map.py``  
 **Visualization Data File:** ``config\packagetrack``
